@@ -51,7 +51,7 @@ font-family: 'Quicksand', sans-serif;
 }
 
 /* --- */
-#body-pd {
+.bodyp {
   position: relative;
   margin: var(--header-height) 0 0 0;
   padding: 0 1rem 0 0;
@@ -159,7 +159,7 @@ a {
 /* !!!!!!!!!!!!!!!! no separar de sidebar sino se rompe */
 
 @media screen and (min-width: 768px) {
-  #body-pd {
+  .bodyp {
     margin: calc(var(--header-height) + 1rem) 0 0 0;
     padding-left: calc(var(--nav-width) + 2rem);
   }
@@ -237,7 +237,7 @@ a {
 /* !!!!!!!!!!!!!!!! no separar de sidebar sino se rompe */
 
 @media screen and (min-width: 768px) {
-  #body-pd {
+  .bodyp {
     margin: calc(var(--header-height) + 1rem) 0 0 0;
     padding-right: calc(var(--nav-width) + 2rem);
   }
@@ -439,4 +439,11 @@ a {
   .bx-x2 {
     right: 72px;
   }
+}
+
+/* -------------------------------- */
+
+.icons-RB {
+  background-color: bisque;
+  padding: 0 0 0 0;
 }

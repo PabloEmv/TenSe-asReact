@@ -1,6 +1,27 @@
-import React from "react";
+import React, { useState, useEffect } from 'react';
 
 const SidebarLeftComponent = () => {
+  
+  const [linkColor, setLinkColor] = useState([]);
+
+  useEffect(() => {
+    const navLinks = document.querySelectorAll('.nav_link');
+    setLinkColor(navLinks);
+  }, []);
+
+  function colorLink() {
+    if (linkColor.length > 0) {
+      linkColor.forEach((l) => l.classList.remove('active'));
+      this.classList.add('active');
+    }
+  }
+
+  useEffect(() => {
+    if (linkColor.length > 0) {
+      linkColor.forEach((l) => l.addEventListener('click', colorLink));
+    }
+  }, [linkColor]);
+
   return (
     <div className="l-navbar" id="nav-bar">
       <nav className="nav">

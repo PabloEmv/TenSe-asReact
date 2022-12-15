@@ -1,4 +1,8 @@
 import React from "react";
+import EMobiledataIcon from '@mui/icons-material/EMobiledata';
+import FormatListNumberedIcon from '@mui/icons-material/FormatListNumbered';
+import AbcIcon from '@mui/icons-material/Abc';
+
 
 const SidebarRightComponent = () => {
   return (
@@ -12,7 +16,7 @@ const SidebarRightComponent = () => {
           <div className="container-fluid progress_content">
             <span className="title_r-navbar">Progreso</span>
             <div className="row">
-              {/* <div className="col"></div> */}
+              <div className="col icons-RB"><EMobiledataIcon/></div>
               <div className="col">
                 <div className="row">
                   <span className="col">Vocales</span>
