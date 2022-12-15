@@ -2,7 +2,7 @@ import React from "react";
 
 const DashboardContentComponent = () => {
   return (
-    <div class="height-100" id="body-pd">
+    <div className="height-100">
       <h4>Contenido principal</h4>
       <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus qui

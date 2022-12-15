@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import '../components/Sidebar/sidebars.css'
 //import { useNavigate } from "react-router-dom"
 import {
@@ -9,34 +9,53 @@ import {
   DashboardContentComponent
 } from "../components";
 
+const showNavbar = (toggleId, navId, bodyId, headerId) => {
+  const toggle = document.getElementById(toggleId);
+  const nav = document.getElementById(navId);
+  const bodypd = document.getElementById(bodyId);
+  const headerpd = document.getElementById(headerId);
+
+  if (toggle && nav && bodypd && headerpd) {
+    toggle.addEventListener("click", () => {
+      toggle.classList.toggle("bx-x");
+      nav.classList.toggle("show");
+      bodypd.classList.toggle("body-pd");
+      headerpd.classList.toggle("body-pd");
+    });
+  }
+};
+
+const showNavbar2 = (toggleId, navId, bodyId, headerId) => {
+  const toggle = document.getElementById(toggleId);
+  const nav = document.getElementById(navId);
+  const bodypd = document.getElementById(bodyId);
+  const headerpd = document.getElementById(headerId);
+
+  if (toggle && nav && bodypd && headerpd) {
+    toggle.addEventListener("click", () => {
+      toggle.classList.toggle("bx-x2");
+      toggle.classList.toggle("bx-x2");
+      nav.classList.toggle("show2");
+      bodypd.classList.toggle("body-pd2");
+    });
+  }
+};
+
+
 const DashboardPage = () => {
-  /* const [element, setElement] = React.useState(null);
-  const [navBar, setNavBar] = React.useState(null);
-  const [bodyPd, setBodyPd] = React.useState(null);
-  const [header, setHeader] = React.useState(null);
+  
+  useEffect(() => {
+    showNavbar("header-toggle", "nav-bar", "body-pd", "header");
+  }, []);
 
-  const handleClick = () => {
-    if (element) {
-      if (element.classList.contains("bx-x")) {
-        setElement(element.classList.remove("bx-x"))
-        
-        navBar.classList.remove("show");
-        bodyPd.classList.remove("body-pd");
-        header.classList.remove("body-pd");
-      } else {
-        element.classList.add("bx-x");
-        navBar.classList.add("show");
-        bodyPd.classList.add("body-pd");
-        header.classList.add("body-pd");
-      }
-    }
-  }; */
-
+  useEffect(() => {
+    showNavbar2("header-toggle2", "nav-bar2", "body-pd", "header");
+  }, []);
   return (
-  <div>
-    <div class="header" id="header">
+  <div id="body-pd">
+    <div className="header" id="header">
       <BtnSidebarLComponent/>
-      <BtnSidebarRComponent />
+      <BtnSidebarRComponent/>
       </div>
       <SidebarLeftComponent />
       <SidebarRightComponent />
