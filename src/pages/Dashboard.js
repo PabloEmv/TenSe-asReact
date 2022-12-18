@@ -40,14 +40,14 @@ const showNavbar2 = (toggleId, navId, bodyId, headerId, textSBR) => {
       nav.classList.toggle("show2");
       bodypd.classList.toggle("body-pd2");
       hidden.classList.toggle("hiddenSBR");
-      
+
     });
   }
 };
 
 
 const DashboardPage = () => {
-  
+
   useEffect(() => {
     showNavbar("header-toggle", "nav-bar", "body-pd", "header");
   }, []);
@@ -56,15 +56,15 @@ const DashboardPage = () => {
     showNavbar2("header-toggle2", "nav-bar2", "body-pd", "header", ".textSBR");
   }, []);
   return (
-  <div id="body-pd" className="bodyp">
-    <div className="header" id="header">
-      <BtnSidebarLComponent/>
-      <BtnSidebarRComponent/>
+    <div id="body-pd" className="bodyp">
+      <div className="header" id="header">
+        <BtnSidebarLComponent />
+        <BtnSidebarRComponent />
       </div>
-      <SidebarLeftComponent />
-      <SidebarRightComponent />
-      <DashboardContentComponent />
-</div>
+        <SidebarRightComponent />
+        <SidebarLeftComponent />
+        <DashboardContentComponent />
+    </div>
   );
 };
 
