@@ -23,7 +23,7 @@
 
 :root {
 font-family: 'Quicksand', sans-serif;
-  --header-height: 3rem;
+  --header-height: 1rem;
   --nav-width: 68px;
   --first-color: #25A2D5;
   --first-color-light: #262c30;
@@ -76,7 +76,7 @@ font-family: 'Quicksand', sans-serif;
 }
 
 /* ajustes de dimensiones y posición de la sidebar */
-.nav {
+.navSB {
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -135,7 +135,7 @@ a {
 /* ----------------------------------------------------- */
 
 
-.show {
+.show0 {
   left: 0;
 }
 .body-pd {
@@ -181,7 +181,7 @@ a {
 
   /* -------------------------------------- */
   /* Js */
-  .show {
+  .show0 {
     width: calc(var(--nav-width) + 156px);
   }
   .body-pd {
@@ -202,7 +202,9 @@ a {
   transition: 0.5s;
   z-index: var(--z-fixed);
 }
-
+.textRight {
+  display: none;
+}
 /* contenido de la sidebar */
 .user_img {
   font-size: 35px;
@@ -446,4 +448,26 @@ a {
 .icons-RB {
   background-color: bisque;
   padding: 0 0 0 0;
+  border-radius: 5px;
+  stroke-linecap: round;
+  margin-top: 60px;
+}
+
+.nameUserSBR {
+  position: relative;
+  bottom: 30px;
+  left: 55px;
+}
+
+.hiddenSBR {
+  transform: 0.5s;
+  display: none;
+}
+
+.tablero {
+  padding: 5% 5% 5% 5%;
+}
+.titleDashboardItems {
+  background: rgba(2, 196, 255, 0.3);
+
 }

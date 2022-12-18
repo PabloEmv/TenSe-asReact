@@ -19,25 +19,27 @@ const showNavbar = (toggleId, navId, bodyId, headerId) => {
     toggle.addEventListener("click", () => {
       toggle.classList.toggle("bx-x");
       toggle.classList.toggle("open");
-      nav.classList.toggle("show");
+      nav.classList.toggle("show0");
       bodypd.classList.toggle("body-pd");
       headerpd.classList.toggle("body-pd");
     });
   }
 };
 
-const showNavbar2 = (toggleId, navId, bodyId, headerId) => {
+const showNavbar2 = (toggleId, navId, bodyId, headerId, textSBR) => {
   const toggle = document.getElementById(toggleId);
   const nav = document.getElementById(navId);
   const bodypd = document.getElementById(bodyId);
   const headerpd = document.getElementById(headerId);
+  const hidden = document.getElementsByClassName(textSBR);
 
-  if (toggle && nav && bodypd && headerpd) {
+  if (toggle && nav && bodypd && headerpd && hidden) {
     toggle.addEventListener("click", () => {
       toggle.classList.toggle("bx-x2");
       toggle.classList.toggle("open");
       nav.classList.toggle("show2");
       bodypd.classList.toggle("body-pd2");
+      hidden.classList.toggle("hiddenSBR");
       
     });
   }
@@ -51,7 +53,7 @@ const DashboardPage = () => {
   }, []);
 
   useEffect(() => {
-    showNavbar2("header-toggle2", "nav-bar2", "body-pd", "header");
+    showNavbar2("header-toggle2", "nav-bar2", "body-pd", "header", ".textSBR");
   }, []);
   return (
   <div id="body-pd" className="bodyp">

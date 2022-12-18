@@ -1,21 +1,48 @@
 import React from "react";
+import vocales from "../../assets/img/vocales_img.png";
 
 const DashboardContentComponent = () => {
   return (
-    <div className="height-100">
-      <h4>Contenido principal</h4>
-      <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus qui
-        suscipit ipsa blanditiis necessitatibus pariatur animi aut quaerat? Odio
-        ex odit possimus explicabo necessitatibus, inventore quis reiciendis
-        itaque iure nisi. Lorem ipsum dolor sit amet consectetur adipisicing
-        elit. Eaque dicta aut non aperiam ab incidunt, animi at quos labore
-        quasi facere natus voluptatum adipisci quisquam atque libero hic quaerat
-        suscipit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-        cumque aspernatur unde impedit nobis fugiat saepe? Consectetur sit
-        nesciunt molestiae iste natus architecto ad ducimus distinctio, animi
-        quod voluptatibus odit.
-      </p>
+    <div className="tablero">
+      <div class="card">
+        <img src={vocales} class="card-img" alt="vocales" />
+        <div class="card-img-overlay" style={{padding:"0 0 0 0"}}>
+          <div className="titleDashboardItems position-relative" style={{padding:"25px 0 4px 25px"}}>
+            <h2 class="card-title">Tablero</h2>
+            <h5 class="card-text">5 lecciones</h5>
+            <h5 class="card-text">
+              <p className="position-absolute bottom-0 end-0 me-3 mb-2">30 min</p>
+            </h5>
+          </div>
+        </div>
+      </div>
+
+      <div className="row">
+        <div className="col"><div class="card">
+        <img src={vocales} class="card-img" alt="vocales" />
+        <div class="card-img-overlay" style={{padding:"0 0 0 0"}}>
+          <div className="titleDashboardItems position-relative" style={{padding:"25px 0 4px 25px"}}>
+            <h2 class="card-title">Tablero</h2>
+            <h5 class="card-text">5 lecciones</h5>
+            <h5 class="card-text">
+              <p className="position-absolute bottom-0 end-0 me-3 mb-2">30 min</p>
+            </h5>
+          </div>
+        </div>
+      </div></div>
+        <div className="col"><div class="card">
+        <img src={vocales} class="card-img" alt="vocales" />
+        <div class="card-img-overlay" style={{padding:"0 0 0 0"}}>
+          <div className="titleDashboardItems position-relative" style={{padding:"25px 0 4px 25px"}}>
+            <h2 class="card-title">Tablero</h2>
+            <h5 class="card-text">5 lecciones</h5>
+            <h5 class="card-text">
+              <p className="position-absolute bottom-0 end-0 me-3 mb-2">30 min</p>
+            </h5>
+          </div>
+        </div>
+      </div></div>
+      </div>
     </div>
   );
 };

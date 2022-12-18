@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-
+import logoTes from '../../assets/img/Logo_TenSeñas.svg'
 const SidebarLeftComponent = () => {
   
   const [linkColor, setLinkColor] = useState([]);
@@ -24,11 +24,11 @@ const SidebarLeftComponent = () => {
 
   return (
     <div className="l-navbar" id="nav-bar">
-      <nav className="nav">
+      <nav className="nav navSB">
         <div>
           {/* logo + nombre */}
           <a href="#" className="nav_logo">
-            <img src="./img/Logo_TenSeñas.svg" alt="" className="logo_tes" />
+            <img src={logoTes} alt="" className="logo_tes" />
             <span className="nav_logo-name">TenSeñas</span>
           </a>
           {/* elementos de la sidebar */}
