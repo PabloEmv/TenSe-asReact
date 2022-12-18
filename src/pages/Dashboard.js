@@ -31,7 +31,7 @@ const showNavbar2 = (toggleId, navId, bodyId, headerId, textSBR) => {
   const nav = document.getElementById(navId);
   const bodypd = document.getElementById(bodyId);
   const headerpd = document.getElementById(headerId);
-  const hidden = document.getElementsByClassName(textSBR);
+  const hidden = document.querySelector(textSBR);
 
   if (toggle && nav && bodypd && headerpd && hidden) {
     toggle.addEventListener("click", () => {
