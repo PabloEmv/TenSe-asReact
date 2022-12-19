@@ -43,6 +43,20 @@ const ConfigComponent = ({ usuarioEditado, setUsuarioEditado, userEdit }) => {
         setState(changedFormValue); 
     }
     */
+
+    // eliminamos la clase active del dashboard
+    function removeActiveClass() {
+    const dashboard = document.querySelector('.nav_link');
+    dashboard.className = dashboard.className.replace('active', '');
+  }
+
+  // agregamos la clase active a la pagiga de config
+  function addActiveClass() {
+    const config = document.querySelector('.config_nav');
+    config.classList.add('active');
+  }
+  useEffect(removeActiveClass, []);
+  useEffect(addActiveClass, []);
     return (
         <div className="fondo">
         <div class="card" className="config">

@@ -1,47 +1,17 @@
 import React from "react";
+import CardDashboardComponent from "./CardDashboard";
 import vocales from "../../assets/img/vocales_img.png";
+import numeros from "../../assets/img/numeros.png";
+import abcdario from "../../assets/img/abcdario.png";
 
 const DashboardContentComponent = () => {
   return (
-    <div className="tablero">
-      <div class="card">
-        <img src={vocales} class="card-img" alt="vocales" />
-        <div class="card-img-overlay" style={{padding:"0 0 0 0"}}>
-          <div className="titleDashboardItems position-relative" style={{padding:"25px 0 4px 25px"}}>
-            <h2 class="card-title">Tablero</h2>
-            <h5 class="card-text">5 lecciones</h5>
-            <h5 class="card-text">
-              <p className="position-absolute bottom-0 end-0 me-3 mb-2">30 min</p>
-            </h5>
-          </div>
-        </div>
-      </div>
+    <div className="tablero container">
+      <CardDashboardComponent imagen={vocales} alt={"vocales"} titulo={"Vocales"} nLecciones={"5"} duracion={"30 m"}/>
 
-      <div className="row">
-        <div className="col"><div class="card">
-        <img src={vocales} class="card-img" alt="vocales" />
-        <div class="card-img-overlay" style={{padding:"0 0 0 0"}}>
-          <div className="titleDashboardItems position-relative" style={{padding:"25px 0 4px 25px"}}>
-            <h2 class="card-title">Tablero</h2>
-            <h5 class="card-text">5 lecciones</h5>
-            <h5 class="card-text">
-              <p className="position-absolute bottom-0 end-0 me-3 mb-2">30 min</p>
-            </h5>
-          </div>
-        </div>
-      </div></div>
-        <div className="col"><div class="card">
-        <img src={vocales} class="card-img" alt="vocales" />
-        <div class="card-img-overlay" style={{padding:"0 0 0 0"}}>
-          <div className="titleDashboardItems position-relative" style={{padding:"25px 0 4px 25px"}}>
-            <h2 class="card-title">Tablero</h2>
-            <h5 class="card-text">5 lecciones</h5>
-            <h5 class="card-text">
-              <p className="position-absolute bottom-0 end-0 me-3 mb-2">30 min</p>
-            </h5>
-          </div>
-        </div>
-      </div></div>
+      <div className="row mt-3">
+        <div className="col"><CardDashboardComponent imagen={numeros} alt={"numeros"} titulo={"Numeros"} nLecciones={"8"} duracion={"45 m"}/><div class="card" /></div>
+        <div className="col"><CardDashboardComponent imagen={abcdario} alt={"abcdario"} titulo={"Abecedario"} nLecciones={"10"} duracion={"1 h"}/><div class="card" /></div>
       </div>
     </div>
   );

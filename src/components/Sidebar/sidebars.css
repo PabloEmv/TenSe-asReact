@@ -25,7 +25,7 @@
 font-family: 'Quicksand', sans-serif;
   --header-height: 1rem;
   --nav-width: 68px;
-  --first-color: #25A2D5;
+  --first-color: rgba(37,162,213, 0.6);
   --first-color-light: #262c30;
   --white-color: #D7F0FB;
   --normal-font-size: 1rem;
@@ -216,11 +216,11 @@ a {
   font-size: 10px;
 }
 
-.progress {
+.progressSbR {
   padding: 0 0 0 0;
   margin-right: 12px;
   width: 80px;
-  height: 6px;
+  height: 8px;
 }
 
 /* ----------------------------------------------------- */
@@ -233,7 +233,6 @@ a {
 .body-pd2 {
   padding-right: calc(var(--nav-width) + 1rem);
 }
-
 
 /* responsividad */
 /* !!!!!!!!!!!!!!!! no separar de sidebar sino se rompe */
@@ -446,28 +445,42 @@ a {
 /* -------------------------------- */
 
 .icons-RB {
-  background-color: bisque;
+  background-color: rgb(41, 113, 247);
   padding: 0 0 0 0;
   border-radius: 5px;
   stroke-linecap: round;
-  margin-top: 60px;
-}
-
-.nameUserSBR {
-  position: relative;
-  bottom: 30px;
-  left: 55px;
+  transition: 0.5s;
 }
 
 .hiddenSBR {
-  transform: 0.5s;
-  display: none;
+  opacity: 0;
+  transition: 0.2s;
 }
 
 .tablero {
-  padding: 5% 5% 5% 5%;
+  height: calc(100vh - var(--header-height));
+  padding: 4vh 2vh 0 2vh;
 }
 .titleDashboardItems {
   background: rgba(2, 196, 255, 0.3);
 
+}
+
+.textSBR{
+  position: relative;
+  font-size: 16px;
+  right: 12px;
+}
+
+.progressSbR {
+  bottom: 40px;
+  left: 60px;
+}
+
+.leccionLvlSBR {
+  left: 60px;
+}
+
+.nameUserSBR {
+  bottom: 30px;
 }
