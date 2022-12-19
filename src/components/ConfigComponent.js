@@ -44,6 +44,7 @@ const ConfigComponent = ({ usuarioEditado, setUsuarioEditado, userEdit }) => {
         setState(changedFormValue); 
     }
     */
+
     return (
         <div className="fondo">
             <div class="card" className="config" style={{ border: '3px solid', borderColor: '#25a5d5', borderRadius: '3%' }}>
