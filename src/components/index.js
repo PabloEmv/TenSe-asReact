@@ -4,7 +4,11 @@ import BtnSidebarLComponent from "./Sidebar/BtnSidebarL";
 import BtnSidebarRComponent from "./Sidebar/BtnSidebarR";
 import DashboardContentComponent from "./Sidebar/DashboardContent";
 import ConfigComponent from "./ConfigComponent";
+import Button from "./Button";
 
 
 
-export { SidebarLeftComponent, SidebarRightComponent, BtnSidebarLComponent, BtnSidebarRComponent, DashboardContentComponent,ConfigComponent }
+export { SidebarLeftComponent, SidebarRightComponent,
+        BtnSidebarLComponent, BtnSidebarRComponent, 
+        DashboardContentComponent,ConfigComponent, 
+        Button}
