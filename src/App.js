@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { HomePage, DashboardPage,ConfigPage } from "./pages/";
+import { HomePage, DashboardPage,ConfigPage,ClassPage } from "./pages/";
+
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
         <Route path="/" element={<HomePage />} />
         <Route path="/dashboard" element={<DashboardPage />} />        
         <Route path="/config" element={<ConfigPage />} />
+        <Route path="/Class" element={<ClassPage />} />
       </Routes>
     </BrowserRouter>
   );
