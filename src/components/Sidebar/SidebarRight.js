@@ -1,5 +1,6 @@
 import React from "react";
 import ProgressSbRComponent from "./ProgressSBR";
+import PendingTaskComponent from "./PendingTask";
 import EMobiledataIcon from "@mui/icons-material/EMobiledata";
 import FormatListNumberedIcon from "@mui/icons-material/FormatListNumbered";
 import AbcIcon from "@mui/icons-material/Abc";
@@ -11,7 +12,7 @@ const SidebarRightComponent = () => {
         <div>
           {/* usuario imagen y nombre */}
           <div className="row justify-content-start mb-5 me-5 flex-nowrap text-nowrap">
-            <i className=""></i>
+          <i className="bx bx-user-circle user_img col-1 me-4"></i>
             <h5 className="nameUserSBR col mb-0 mt-2 ms-1">kiara Diaz</h5>
           </div>
           {/* progreso */}
@@ -65,8 +66,14 @@ const SidebarRightComponent = () => {
             </div>
             
             {/* ---- */}
-            <h2 className="title_r-navbar hiddenSBR textSBR2 text-nowrap mt-5 position-absolute">Tareas Pendientes</h2>
+            <h2 className="title_r-navbar hiddenSBR textSBR2 text-nowrap mt-5">Tareas Pendientes</h2>
             {/* ---- */}
+            
+              {/* icono */}
+              <div><PendingTaskComponent pendingTaskName={"Actividad Vocales 1"}/>
+            <PendingTaskComponent pendingTaskName={"Actividad Vocales 2"}/></div>
+            
+            
           </div>
         </div>
       </nav>
