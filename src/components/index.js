@@ -5,8 +5,10 @@ import BtnSidebarRComponent from "./Sidebar/BtnSidebarR";
 import DashboardContentComponent from "./Sidebar/DashboardContent";
 import ConfigComponent from "./ConfigComponent";
 import ClassContentComponent from "./Clase1.js/ClassContent";
+import Register from "./Registro/Register";
+import BarraNavegacion from "./Nav/BarraNavegacion";
 
 
 
 
-export { SidebarLeftComponent, SidebarRightComponent,ClassContentComponent, BtnSidebarLComponent, BtnSidebarRComponent, DashboardContentComponent,ConfigComponent }
+export {BarraNavegacion, Register, SidebarLeftComponent, SidebarRightComponent,ClassContentComponent, BtnSidebarLComponent, BtnSidebarRComponent, DashboardContentComponent,ConfigComponent }
