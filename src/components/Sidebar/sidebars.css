@@ -158,6 +158,19 @@ a {
 /* responsividad */
 /* !!!!!!!!!!!!!!!! no separar de sidebar sino se rompe */
 
+.cardDashboard:hover {
+  border-width: 3px;
+  transition: 0.1s;
+  cursor: pointer;
+  transform: scale(1.02);
+  border-color: #25A2D5;
+}
+
+.cardDashboard:hover .titleDashboardItems {
+  transition: 0.4s;
+  background: rgba(2, 169, 219, 0.877);
+}
+
 @media screen and (min-width: 768px) {
   .bodyp {
     margin: calc(var(--header-height) + 1rem) 0 0 0;
@@ -462,7 +475,7 @@ a {
   padding: 4vh 2vh 0 2vh;
 }
 .titleDashboardItems {
-  background: rgba(2, 196, 255, 0.3);
+  background: var(--first-color);
 
 }
 
