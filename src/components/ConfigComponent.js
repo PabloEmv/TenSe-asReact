@@ -45,8 +45,8 @@ const ConfigComponent = ({ usuarioEditado, setUsuarioEditado, userEdit }) => {
 
     return (
         <div className="fondo">
-            <div class="card" className="config" style={{ border: '3px solid', borderColor: '#25a5d5', borderRadius: '3%' }}>
-                <div>
+            <div class="card" className="config" style={{ border: '2px solid', borderColor: '#25a5d5', borderRadius: '1%' }}>
+                <div className="a ">
                     <h4>Foto de perfil</h4>
                     <div class="container"
                         style={{
@@ -56,7 +56,7 @@ const ConfigComponent = ({ usuarioEditado, setUsuarioEditado, userEdit }) => {
                         <img
                             src={avatar}
                             position={"relative"}
-                            width={"10%"}
+                            width={"120px"}
                         />
                         <div >
                             <h5 class="card-title">Nombre de usuario</h5>

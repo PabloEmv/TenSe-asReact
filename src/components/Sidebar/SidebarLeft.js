@@ -7,7 +7,7 @@ const SidebarLeftComponent = () => {
       <nav className="nav navSB">
         <div>
           {/* logo + nombre */}
-          <a href="#" className="nav_logo">
+          <a href="./Dashboard" className="nav_logo">
             <img src={logoTes} alt="" className="logo_tes" />
             <span className="nav_logo-name">TenSeñas</span>
           </a>
@@ -17,7 +17,7 @@ const SidebarLeftComponent = () => {
               <i className="bx bx-grid-alt nav_icon"></i>
               <span className="nav_name">Tablero</span>
             </a>
-            <a href="#" className="nav_link">
+            <a href="./Class" className="nav_link">
               <i className="bx bx-folder nav_icon"></i>
               <span className="nav_name">Clases</span>
             </a>

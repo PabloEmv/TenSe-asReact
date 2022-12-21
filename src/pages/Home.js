@@ -1,4 +1,4 @@
-import React from "react";
+/* import React from "react";
 import {CabeceraComponent, CuerpoComponent, LoginComponent, PieComponent } from "../components";
 //import { useNavigate } from "react-router-dom"
 
@@ -17,4 +17,4 @@ const HomePage = () => {
   )
 }
 
-export default HomePage;
+export default HomePage; */
