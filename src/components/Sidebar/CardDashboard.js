@@ -3,7 +3,7 @@ import React from "react";
 const CardDashboardComponent = ({imagen, alt, titulo, nLecciones, duracion}) => {
   return (
     <div>
-      <div class="card">
+      <div class="card cardDashboard">
         <img src={imagen} class="card-img" alt={alt} />
         <div class="card-img-overlay" style={{ padding: "0 0 0 0" }}>
           <div
