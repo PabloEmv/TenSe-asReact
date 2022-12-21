@@ -1,0 +1,96 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+
+}
+
+.bloqueGeneral {
+  flex-wrap: nowrap;
+}
+
+.planAprendizaje {
+  background: white;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 370px;
+  margin-bottom: 50px;
+
+
+  box-sizing: border-box;
+
+  width: 58%;
+  height: 310px;
+
+  border: 0.2px solid #25a2d5;
+  border-radius: 20px;
+
+  line-height: 29px;
+
+  position: relative;
+  left: 20%;
+}
+
+.imgPlan{
+  width: 30%;
+  height: 90%;
+  align-items: center;
+  border-radius: 30px;;
+}
+
+.sobreNosotros {
+  position: relative;
+  align-items: center;
+  width: 300px;
+  height: 160px;
+  left: 33%;
+  margin-top: 0%;
+}
+
+.beneficios {
+  display: flex;
+  flex-wrap: wrap;
+  width: 78%;
+  height: 230px;
+  position: relative;
+  left: 10%;
+  justify-content: space-around;
+}
+
+.equipoTrabajo {
+  background-color: #d8cfe3;
+  width: 28%;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  text-align:left;
+}
+
+.acceso {
+  background-color: #d8e2e6;
+  width: 28%;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  text-align:left;
+}
+
+.beneficios2 {
+  display: flex;
+  position: relative;
+  left: 1%;
+  justify-content: space-around;
+  text-align:left;
+}
+
+.problematica {
+  background-color: #d8e6e5;
+  width: 28%;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  text-align:left;
+}
+
+.aprendeJugando {
+  background-color: #dfd8e6;
+  width: 28%;
+  border-radius: 20px;
+}
