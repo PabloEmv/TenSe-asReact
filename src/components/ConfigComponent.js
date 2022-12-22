@@ -1,4 +1,3 @@
-import { borderTop } from "@mui/system";
 import React, { useState, useEffect } from "react";
 import avatar from "../assets/img/avatar.svg";
 import "./Config.css";
@@ -120,7 +119,6 @@ const ConfigComponent = ({ usuarioEditado, setUsuarioEditado, userEdit }) => {
                                 value={apellido}
                                 onChange={handleInputChange} */
                                 ></input>
-
                             </div>
                             <button
                                 type="button"
@@ -130,7 +128,6 @@ const ConfigComponent = ({ usuarioEditado, setUsuarioEditado, userEdit }) => {
                             </button>
                         </div>
                         <div class="col">
-
                             <div class="mb-3">
                                 <label for="Correo" class="form-label">
                                     Email
