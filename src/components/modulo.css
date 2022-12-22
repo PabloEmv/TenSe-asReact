@@ -4,9 +4,17 @@
 .accordion{
     background-color: #25a5d5;
 }
+
 .accordion-body{ 
     background-color: #25a5d5;
+    opacity: 75%;
 }
 .accordion-collapse{
     background-color: #25a5d5;
+}
+.todo{
+    background-color: #25a5d5;
+}
+.color{
+    background-color: #d52525;
 }

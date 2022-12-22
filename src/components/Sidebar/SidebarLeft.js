@@ -33,7 +33,7 @@ const SidebarLeftComponent = () => {
         </div>
         {/* cierre de sesion */}
         <div id="log_out">
-          <a href="#" className="nav_link">
+          <a href="/login" className="nav_link">
             <i className="bx bx-log-out nav_icon"></i>
             <span className="nav_name">Cerrar Sesion</span>
           </a>
