@@ -2,6 +2,11 @@ import React, { useState, useEffect } from 'react';
 import logoTes from '../../assets/img/Logo_TenSeñas.svg'
 const SidebarLeftComponent = () => {
   
+<<<<<<< HEAD
+=======
+  
+
+>>>>>>> Nejobac
   return (
     <div className="l-navbar" id="nav-bar">
       <nav className="nav navSB">

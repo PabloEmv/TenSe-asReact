@@ -1,3 +1,4 @@
+import { borderTop } from "@mui/system";
 import React, { useState, useEffect } from "react";
 import avatar from "../assets/img/avatar.svg";
 import "./Config.css";
@@ -44,8 +45,13 @@ const ConfigComponent = ({ usuarioEditado, setUsuarioEditado, userEdit }) => {
 
     return (
         <div className="fondo">
+<<<<<<< HEAD
             <div class="card" className="config" style={{ border: '2px solid', borderColor: '#25a5d5', borderRadius: '1%' }}>
                 <div className="a ">
+=======
+            <div class="card" className="config" style={{ border: '3px solid', borderColor: '#25a5d5', borderRadius: '3%' }}>
+                <div>
+>>>>>>> Nejobac
                     <h4>Foto de perfil</h4>
                     <div class="container"
                         style={{
@@ -55,7 +61,11 @@ const ConfigComponent = ({ usuarioEditado, setUsuarioEditado, userEdit }) => {
                         <img
                             src={avatar}
                             position={"relative"}
+<<<<<<< HEAD
                             width={"120px"}
+=======
+                            width={"10%"}
+>>>>>>> Nejobac
                         />
                         <div >
                             <h5 class="card-title">Nombre de usuario</h5>
@@ -119,6 +129,10 @@ const ConfigComponent = ({ usuarioEditado, setUsuarioEditado, userEdit }) => {
                                 value={apellido}
                                 onChange={handleInputChange} */
                                 ></input>
+<<<<<<< HEAD
+=======
+
+>>>>>>> Nejobac
                             </div>
                             <button
                                 type="button"
@@ -128,6 +142,10 @@ const ConfigComponent = ({ usuarioEditado, setUsuarioEditado, userEdit }) => {
                             </button>
                         </div>
                         <div class="col">
+<<<<<<< HEAD
+=======
+
+>>>>>>> Nejobac
                             <div class="mb-3">
                                 <label for="Correo" class="form-label">
                                     Email
