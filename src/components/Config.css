@@ -2,17 +2,10 @@
     padding-top: 8%;
     padding-bottom: 8%;
     padding-left: 4%;
-<<<<<<< HEAD
     padding-right: 4%;    
 }
 .config{
     border-radius: 5%;
-=======
-    padding-right: 4%;
-}
-.config{
-    border-radius: 10%;
->>>>>>> Nejobac
     padding: 5%;
     background-color:white;
     width: 100%;
@@ -21,14 +14,9 @@
 .formulario{
     margin-left:15%;
     margin-right:15%;
-<<<<<<< HEAD
 }
 .a{
     
     border-bottom: solid;
     border-bottom-color: #25a5d5;
-=======
-    border-top: solid;
-    border-top-color: #25a5d5;
->>>>>>> Nejobac
 }
