@@ -52,11 +52,10 @@ const DashboardPage = () => {
 
   useEffect(() => {
     showNavbar("header-toggle", "nav-bar", "body-pd", "header");
-  }, []);
-
-  useEffect(() => {
     showNavbar2("header-toggle2", "nav-bar2", "body-pd", "header", ".textSBR", ".textSBR2");
   }, []);
+
+  
   return (
     <div id="body-pd" className="bodyp">
       <div className="header" id="header">
