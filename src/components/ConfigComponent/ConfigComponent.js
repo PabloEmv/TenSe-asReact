@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import avatar from "../assets/img/avatar.svg";
+import avatar from "../../assets/img/avatar.svg";
 import "./Config.css";
 
 const initialUsuario = {
