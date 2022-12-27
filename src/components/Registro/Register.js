@@ -72,7 +72,7 @@ const Register = ({ /* userAdd, usuarioEditado */ }) => {
   }; 
   return (
     <div className="Register">
-      <div class="card" style={{ border: '1px solid black', borderRadius: '3%', position: 'fixed', top: "25%", left: "51%", backgroundColor: "white" }} >
+      <div class="card" style={{ border: '1px solid black', borderRadius: '3%', position: 'fixed', top: "25%", left: "51%", backgroundColor: "white" , zIndex: 1}} >
         <ThemeProvider theme={theme}>
           <Container component="main" maxWidth="xs">
             <CssBaseline />
@@ -168,7 +168,7 @@ const Register = ({ /* userAdd, usuarioEditado */ }) => {
           </Container>
         </ThemeProvider>
       </div>
-      <img src={RacoonD} alt="Mapache Rocco" style={{ position: 'fixed', top: 150, left: "16%", zIndex: -1 }}></img>
+      <img src={RacoonD} alt="Mapache Rocco" style={{ position: 'fixed', top: "15%", left: "17%", zIndex: 0 }}></img>
     </div>
   );
 }
