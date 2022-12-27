@@ -1,4 +1,3 @@
-import { borderTop } from "@mui/system";
 import React, { useState, useEffect } from "react";
 import avatar from "../assets/img/avatar.svg";
 import "./Config.css";
@@ -58,29 +57,32 @@ const ConfigComponent = ({ usuarioEditado, setUsuarioEditado, userEdit }) => {
         <div className="fondo">
             <div class="card" className="config" style={{ border: '2px solid', borderColor: '#25a5d5', borderRadius: '1%' }}>
                 <div className="a ">
-                    <h4>Foto de perfil</h4>
+                    <h4 style={{ marginLeft: '2%' }}>Foto de perfil</h4>
                     <div class="container"
                         style={{
                             display: 'flex',
-                            alignItems: 'start'
+                            alignItems: 'start',
+                            marginLeft: '2%'
                         }}>
                         <img
                             src={avatar}
                             position={"relative"}
                             width={"120px"}
                         />
-                        <div >
+                        <div class="container" style={{ display: 'flex', flexDirection: 'column', marginLeft: '3%', marginTop:'2%' }}>
                             <h5 class="card-title">Nombre de usuario</h5>
-                            <br />
-                            <button type="button"style={{backgroundColor: '#25a5d5'}}
+                            <button type="button" style={{ backgroundColor: '#25a2d5', width: '150px', marginTop: '2%'}}
                                 class="btn"
-                        /*onClick={() => userEdit(state)}*/              
-                            >Cambiar foto
+                            /*onClick={() => userEdit(state)}*/
+                            ><span class="fw-semibold" >
+                                Cambiar foto
+                                </span>
                             </button>
                         </div>
                     </div>
+                    <br />
                 </div>
-                <br /><br /><br />
+                <br />
                 <form className="formulario" >
                     <div class="row">
                         <div class="col" >
@@ -93,12 +95,12 @@ const ConfigComponent = ({ usuarioEditado, setUsuarioEditado, userEdit }) => {
                                     class="form-control"
                                     id="NombreUsuario"
                                     placeholder="NombreUsuario"
-                                    //para que mi formulario sea capaz de crear un usuario debemos agregarle a los input
-                                    //lo siguiente
-                                    /* 
-                                    name="nombreUsuario"
-                                    value={nombreUsuario}
-                                    onChange={handleInputChange} */
+                                //para que mi formulario sea capaz de crear un usuario debemos agregarle a los input
+                                //lo siguiente
+                                /* 
+                                name="nombreUsuario"
+                                value={nombreUsuario}
+                                onChange={handleInputChange} */
                                 ></input>
                             </div>
                             <div class="mb-3 " id="Nombre" >
@@ -132,12 +134,6 @@ const ConfigComponent = ({ usuarioEditado, setUsuarioEditado, userEdit }) => {
                                 onChange={handleInputChange} */
                                 ></input>
                             </div>
-                            <button
-                                type="button"
-                                class="btn btn-success"
-                            // onClick={() => userEdit(state)}
-                            >Cancelar
-                            </button>
                         </div>
                         <div class="col">
                             <div class="mb-3">
@@ -156,7 +152,7 @@ const ConfigComponent = ({ usuarioEditado, setUsuarioEditado, userEdit }) => {
                             </div>
                             <div class="mb-3">
                                 <label for="Password" class="form-label">
-                                    Password
+                                    Contraseña
                                 </label>
                                 <input
                                     type="password"
@@ -185,14 +181,28 @@ const ConfigComponent = ({ usuarioEditado, setUsuarioEditado, userEdit }) => {
                                 onChange={handleInputChange} */
                                 ></input>
                             </div>
-                            <button
-                                type="button"
-                                class="btn btn-success"
-                                /*                 onClick={() => userEdit(state)}
-                                */              >
-                                Continuar
-                            </button>
                         </div>
+                            <div style={{display:'flex', justifyContent:'center', width:'100%'}}>
+                        <div style={{margin:"3%"}}>
+                                <button
+                                    type="button"
+                                    class="btn"
+                                    style={{border:'2px solid' ,borderColor:'#25a5d5', backgroundColor:'ffffff'}}
+                                    // onClick={() => userEdit(state)}
+                                    >Cancelar
+                                </button>
+                                </div>
+                                <div style={{margin:"3%"}}>    
+                                <button
+                                    type="button"
+                                    class="btn"
+                                    style={{border:'2px solid' ,borderColor:'#25a5d5', backgroundColor:'#25a5d5'}}
+                                    /*                 onClick={() => userEdit(state)}
+                                    */              >
+                                    Continuar
+                                </button>
+                            </div>
+                    </div>
                     </div>
                     {/* 
                         <button
