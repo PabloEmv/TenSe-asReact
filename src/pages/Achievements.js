@@ -6,12 +6,12 @@ import {
   BtnSidebarRComponent,
   SidebarLeftComponent,
   SidebarRightComponent,
-  DashboardContentComponent,
+  AchievementsContentComponent,
   showNavbar, showNavbar2
 } from "../components";
 
 
-const DashboardPage = () => {
+const AchievementsPage = () => {
 
   useEffect(() => {
     showNavbar("header-toggle", "nav-bar", "body-pd", "header");
@@ -28,9 +28,9 @@ const DashboardPage = () => {
       </div>
         <SidebarRightComponent />
         <SidebarLeftComponent />
-        <DashboardContentComponent />
+        <AchievementsContentComponent />
     </div>
   );
 };
 
-export default DashboardPage;
+export default AchievementsPage;
