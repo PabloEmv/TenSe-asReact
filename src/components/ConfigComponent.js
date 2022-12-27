@@ -1,5 +1,3 @@
-
-import { WrapText } from "@mui/icons-material";
 import React, { useState, useEffect } from "react";
 import avatar from "../assets/img/avatar.svg";
 import "./Config.css";
@@ -60,7 +58,7 @@ const ConfigComponent = ({ usuarioEditado, setUsuarioEditado, userEdit }) => {
                             position={"relative"}
                             width={"120px"}
                         />
-                        <div class="container" style={{ display: 'flex', flexDirection: 'column', marginLeft: '3%' }}>
+                        <div class="container" style={{ display: 'flex', flexDirection: 'column', marginLeft: '3%', marginTop:'2%' }}>
                             <h5 class="card-title">Nombre de usuario</h5>
                             <button type="button" style={{ backgroundColor: '#25a2d5', width: '150px', marginTop: '2%'}}
                                 class="btn"
@@ -143,7 +141,7 @@ const ConfigComponent = ({ usuarioEditado, setUsuarioEditado, userEdit }) => {
                             </div>
                             <div class="mb-3">
                                 <label for="Password" class="form-label">
-                                    Password
+                                    Contraseña
                                 </label>
                                 <input
                                     type="password"
