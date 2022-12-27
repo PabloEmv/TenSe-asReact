@@ -4,6 +4,9 @@ import BtnSidebarLComponent from "./Sidebar/BtnSidebarL";
 import BtnSidebarRComponent from "./Sidebar/BtnSidebarR";
 import DashboardContentComponent from "./Sidebar/DashboardContent";
 import ConfigComponent from "./ConfigComponent";
+import { showNavbar } from "./Sidebar/SbScript";
+import { showNavbar2 } from "./Sidebar/SbScript";
+import AchievementsContentComponent from "./Achievements/Achievements";
 import ClassContentComponent from "./Clase1.js/ClassContent";
 import Register from "./Registro/Register";
 import BarraNavegacion from "./Nav/BarraNavegacion";
@@ -14,10 +17,4 @@ import LoginComponent from "./Home.js/Login"
 import PieComponent from "./Home.js/Pie";
 
 
-
-
-
-export {BarraNavegacion, Register, SidebarLeftComponent, 
-    SidebarRightComponent,ClassContentComponent, BtnSidebarLComponent,
-    BtnSidebarRComponent, DashboardContentComponent,ConfigComponent, 
-    ModuloComponent, CabeceraComponent, CuerpoComponent, LoginComponent, PieComponent}
+export { SidebarLeftComponent, SidebarRightComponent, BtnSidebarLComponent, BtnSidebarRComponent, DashboardContentComponent, ConfigComponent, showNavbar, showNavbar2, AchievementsContentComponent, ClassContentComponent, Register, BarraNavegacion, ModuloComponent, CabeceraComponent, CuerpoComponent, LoginComponent, PieComponent }

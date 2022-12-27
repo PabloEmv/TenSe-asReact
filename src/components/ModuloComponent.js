@@ -8,6 +8,7 @@ const ModuloComponent = () => {
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="panelsStayOpen-headingOne">
                             <button 
+                                id="xd"
                                 class="accordion-button" 
                                 type="button" 
                                 data-bs-toggle="collapse" 
