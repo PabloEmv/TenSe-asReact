@@ -12,6 +12,7 @@ import CabeceraComponent from "./Home.js/Cabecera";
 import CuerpoComponent from "./Home.js/Cuerpo";
 import LoginComponent from "./Home.js/Login"
 import PieComponent from "./Home.js/Pie";
+import UserComponent from "./Perfil/User";
 
 
 
@@ -20,4 +21,5 @@ import PieComponent from "./Home.js/Pie";
 export {BarraNavegacion, Register, SidebarLeftComponent, 
     SidebarRightComponent,ClassContentComponent, BtnSidebarLComponent,
     BtnSidebarRComponent, DashboardContentComponent,ConfigComponent, 
-    ModuloComponent, CabeceraComponent, CuerpoComponent, LoginComponent, PieComponent}
+    ModuloComponent, CabeceraComponent, CuerpoComponent, LoginComponent, 
+    PieComponent,UserComponent}
