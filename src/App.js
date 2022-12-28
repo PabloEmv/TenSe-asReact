@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { HomePage, DashboardPage,ConfigPage,ClassPage,Class2Page, Actividad1Page, Registro,ModuloPage, AchievementsPage } from "./pages/";
+import { HomePage, DashboardPage,ConfigPage,ClassPage,Class2Page, Actividad1Page, Registro,ModuloPage, AchievementsPage,IniciarSesion } from "./pages/";
 
 
 const App = () => {
