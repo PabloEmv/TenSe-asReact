@@ -1,6 +1,4 @@
-
-
-body{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -30,15 +28,13 @@ body{
 }
 
 .logo {
-    margin: 0;
+    margin: 3px;
     display: flex;
     align-items: center;
     flex-direction: row;
 
 }
 
-.logoLetra{
-}
 
 .lista {
     display: flex;
@@ -56,6 +52,7 @@ body{
 
 
 .nav{
+    margin-right: 10px;
     padding: 6px;
     text-decoration: none;
     color: white;
@@ -63,6 +60,8 @@ body{
 
 
 .buttoninicio{
+    margin-right: 8px;
+    margin-left: 10px;
     display:flex;
     margin: 5px;
     color: rgba(37,162,213,255);

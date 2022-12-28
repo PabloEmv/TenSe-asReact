@@ -1,0 +1,65 @@
+.beneficios img {
+    position: relative;
+    top: 35%;
+    width: 40%;
+    height: 52%;
+    left: 5%;
+}
+
+.beneficios {
+    width: 95%;
+    position: relative;
+    top: 300px;
+}
+
+.primer,
+.segundo {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 90%;
+    margin-left: 3%;
+}
+
+.a,
+.aa {
+    border: none;
+    display: flex;
+    flex-direction: row;
+    margin: 4%;
+
+}
+
+.equipo,
+.problematica {
+    width: 90%;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.aprende, .acceso {
+    width: 100%;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.equipo {
+    background-color: #91c1f73c;
+    color: rgb(33, 34, 56)
+}
+
+
+.acceso {
+    background-color: #d8e2e69d;
+    color: rgb(33, 34, 56);
+}
+
+
+.problematica {
+    background-color: #8c8c8c2f;
+    color: rgb(33, 34, 56);
+}
+
+.aprende {
+    background-color: #dfd8e676;
+    color: rgb(33, 34, 56);
+}

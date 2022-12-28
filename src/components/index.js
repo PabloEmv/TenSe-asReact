@@ -10,6 +10,7 @@ import BarraNavegacion from "./Nav/BarraNavegacion";
 import ModuloComponent from "./Modulo/ModuloComponent";
 import CabeceraComponent from "./Home.js/Cabecera";
 import CuerpoComponent from "./Home.js/Cuerpo";
+import CuerpoComponent2 from "./Home.js/Cuerpo2";
 import LoginComponent from "./Home.js/Login"
 import PieComponent from "./Home.js/Pie";
 import InicioSesion from "./IniciarSesion.js/InicioSesion";
@@ -27,4 +28,4 @@ import BotonesComponent from "./Clase1.js/Botones";
 export { SidebarLeftComponent, SidebarRightComponent, BtnSidebarLComponent, BtnSidebarRComponent,
      DashboardContentComponent, ConfigComponent, showNavbar, showNavbar2, AchievementsContentComponent,
       ClassContentComponent, Register, BarraNavegacion, ModuloComponent, CabeceraComponent, CuerpoComponent, 
-      LoginComponent, PieComponent, InicioSesion,BotonesComponent,Actividad1Component,Class2ContentComponent}
+      LoginComponent, PieComponent, InicioSesion,BotonesComponent,Actividad1Component,Class2ContentComponent, CuerpoComponent2}
