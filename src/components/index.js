@@ -13,16 +13,16 @@ import CuerpoComponent from "./Home.js/Cuerpo";
 import LoginComponent from "./Home.js/Login"
 import PieComponent from "./Home.js/Pie";
 import InicioSesion from "./IniciarSesion.js/InicioSesion";
+import {showNavbar} from "./Sidebar/SbScript";
+import {showNavbar2} from "./Sidebar/SbScript";
+import AchievementsContentComponent from "./Achievements/Achievements";
 
 
-<<<<<<< HEAD
 
 
 
-export {BarraNavegacion, Register, SidebarLeftComponent, 
-    SidebarRightComponent,ClassContentComponent, BtnSidebarLComponent,
-    BtnSidebarRComponent, DashboardContentComponent,ConfigComponent, 
-    ModuloComponent, CabeceraComponent, CuerpoComponent, LoginComponent, PieComponent, InicioSesion}
-=======
-export { SidebarLeftComponent, SidebarRightComponent, BtnSidebarLComponent, BtnSidebarRComponent, DashboardContentComponent, ConfigComponent, showNavbar, showNavbar2, AchievementsContentComponent, ClassContentComponent, Register, BarraNavegacion, ModuloComponent, CabeceraComponent, CuerpoComponent, LoginComponent, PieComponent }
->>>>>>> cf844d8961d512de92d707004839d73e5e0b49d0
+
+export { SidebarLeftComponent, SidebarRightComponent, BtnSidebarLComponent, BtnSidebarRComponent,
+     DashboardContentComponent, ConfigComponent, showNavbar, showNavbar2, AchievementsContentComponent,
+      ClassContentComponent, Register, BarraNavegacion, ModuloComponent, CabeceraComponent, CuerpoComponent, 
+      LoginComponent, PieComponent, InicioSesion}

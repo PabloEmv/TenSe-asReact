@@ -32,7 +32,7 @@ const InicioSesion = () => {
 
   return (
     <div className="Registro">
-      <div class="card" style={{ border: '1px solid black', borderRadius: '3%', position: 'fixed', top: "25%", left: "33%", backgroundColor: "white" }} >
+      <div class="card" style={{ border: '1px solid black', borderRadius: '3%', position: 'fixed', top: "21%", left: "33%", backgroundColor: "white" }} >
         <Container component="main" maxWidth="xs">
           <CssBaseline />
           <Box
