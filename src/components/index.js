@@ -16,7 +16,9 @@ import InicioSesion from "./IniciarSesion.js/InicioSesion";
 import {showNavbar} from "./Sidebar/SbScript";
 import {showNavbar2} from "./Sidebar/SbScript";
 import AchievementsContentComponent from "./Achievements/Achievements";
-
+import Class2ContentComponent from "./Clase2/ClassContentVD";
+import Actividad1Component from "./Actividad1.js/Actividad1";
+import BotonesComponent from "./Clase1.js/Botones";
 
 
 
@@ -25,4 +27,4 @@ import AchievementsContentComponent from "./Achievements/Achievements";
 export { SidebarLeftComponent, SidebarRightComponent, BtnSidebarLComponent, BtnSidebarRComponent,
      DashboardContentComponent, ConfigComponent, showNavbar, showNavbar2, AchievementsContentComponent,
       ClassContentComponent, Register, BarraNavegacion, ModuloComponent, CabeceraComponent, CuerpoComponent, 
-      LoginComponent, PieComponent, InicioSesion}
+      LoginComponent, PieComponent, InicioSesion,BotonesComponent,Actividad1Component,Class2ContentComponent}

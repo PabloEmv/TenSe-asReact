@@ -1,19 +1,19 @@
-import BotonesComponent from "./Botones";
-import ImagenCentralComponent from "./ImagenCentral";
-import img from "../../img/Cuadro_completo.png"
+import BotonesComponent from "../Clase1.js/Botones";
+import ImagenCentralVDComponent from "./VocalesDebiles";
+import imgvocaldebil from "../../img/VocalesDebiles.png"
 import React, { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 
 
 
-const ClassContentComponent = () => {
+const ClassContentVDComponent = () => {
   const navigate = useNavigate();
   const handleOnClick = useCallback(() => navigate("/dashboard", {}, [navigate]));
 
   return (
     <div className="height-100">
       <div>
-        <ImagenCentralComponent titulo= {"Vocales fuertes A, E, O"} img = {img}/>
+        <ImagenCentralVDComponent titulo= {"Vocales Debíles I, U"} imgvocaldebil = {imgvocaldebil}/>
         <BotonesComponent handleOnClick={handleOnClick}/>
         </div>
     </div> 
@@ -21,4 +21,4 @@ const ClassContentComponent = () => {
 };
 
 
-export default ClassContentComponent;
+export default ClassContentVDComponent;
