@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { HomePage, DashboardPage,ConfigPage,ClassPage,Class2Page, Actividad1Page, Registro,ModuloPage, AchievementsPage,IniciarSesion } from "./pages/";
+import { HomePage, DashboardPage,ConfigPage,ClassPage,Class2Page, Actividad1Page, Registro,ModuloPage, AchievementsPage,IniciarSesion,UserPage } from "./pages/";
 
 
 const App = () => {
@@ -16,7 +16,8 @@ const App = () => {
         <Route path="/Achievements" element={<AchievementsPage />} />
         <Route path="/Class2" element={<Class2Page />} />
         <Route path="/Actividad1" element={<Actividad1Page />} />
-        <Route path="/iniciarSesion" element={<IniciarSesion />} />
+        <Route path="/iniciarSesion" element={<IniciarSesion />} />                
+        <Route path="/user" element={<UserPage />} />
       </Routes>
     </BrowserRouter>
   );
