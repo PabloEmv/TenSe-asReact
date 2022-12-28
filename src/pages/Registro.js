@@ -30,7 +30,7 @@ const Registro = () =>{
         <div>
             <BarraNavegacion/>
         </div>
-          <img src={fondo} alt="Fondo" style={{ zIndex:-1 , position:"fixed",height:"100%", width:"100%", top:"60px"}} />
+          <img src={fondo} alt="Fondo" draggable="false" style={{ zIndex:-1 , position:"fixed",height:"100%", width:"100%", top:"60px"}} />
         <div className="infoRegistro" style={{ position: 'fixed', top: "60px", left: "2%", textAlign: 'center',color:"white" }}>
           <img src={logoTS} alt="logoTS" style={{width:"75px"}}/>
           <h1 style={{textAlign: 'center'}}>TenSeñas</h1>

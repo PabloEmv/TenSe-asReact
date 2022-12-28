@@ -72,7 +72,7 @@ const Register = ({ /* userAdd, usuarioEditado */ }) => {
   }; 
   return (
     <div className="Register">
-      <div class="card" style={{ border: '1px solid black', borderRadius: '3%', position: 'fixed', top: "25%", left: "51%", backgroundColor: "white" , zIndex: 1}} >
+      <div class="card" style={{ border: '1px solid #25a2d5', borderRadius: '3%', position: 'absolute', top: "25%", left: "51%", backgroundColor: "white" , zIndex: 1}} >
         <ThemeProvider theme={theme}>
           <Container component="main" maxWidth="xs">
             <CssBaseline />
@@ -157,7 +157,7 @@ const Register = ({ /* userAdd, usuarioEditado */ }) => {
                 )} */}
                 <Grid container justifyContent="flex-end">
                   <Grid item>
-                    <Link href="#" variant="body2">
+                    <Link href="/iniciarSesion" variant="body2">
                       Ya tienes cuenta Inicia Sesion.
                     </Link>
                   </Grid>
@@ -168,7 +168,7 @@ const Register = ({ /* userAdd, usuarioEditado */ }) => {
           </Container>
         </ThemeProvider>
       </div>
-      <img src={RacoonD} alt="Mapache Rocco" style={{ position: 'fixed', top: "15%", left: "17%", zIndex: 0 }}></img>
+      <img src={RacoonD} alt="Mapache Rocco" maxWidth="xs" style={{ position: 'absolute', top: "15%", left: "17%", zIndex: 0 }}></img>
     </div>
   );
 }
