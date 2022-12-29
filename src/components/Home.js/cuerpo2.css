@@ -1,8 +1,8 @@
 .beneficios img {
     position: relative;
     top: 35%;
-    width: 40%;
-    height: 52%;
+    width: 50%;
+    height: 50%;
     left: 5%;
 }
 
@@ -12,23 +12,28 @@
     top: 300px;
 }
 
-.primer,
-.segundo {
+.primer{
     display: flex;
-    flex-wrap: nowrap;
-    width: 90%;
-    margin-left: 3%;
+    width: auto;
+    margin-left:8%;
 }
-
-.a,
-.aa {
-    border: none;
+.segundo{
     display: flex;
-    flex-direction: row;
-    margin: 4%;
-
+    width: auto;
+    margin-left:8%;
+    margin-top: 2%;
 }
-
+.a{
+    display: flex;
+    width: 45%;
+    margin: 2%;
+}
+.aa{
+    contain: content;
+    display: flex;
+    width: 45%;
+    margin: 2%;
+}
 .equipo,
 .problematica {
     width: 90%;
