@@ -1,0 +1,27 @@
+.backgroundImgCarrusel{
+    background-image: url("../../img/Frame_6.jpg");
+      background-repeat: no-repeat;
+      border-radius: 10px;
+}
+.backgroundT{
+    background-color:rgba(215, 240, 251, 1);
+    width: 30%;
+    display: flex;
+    align-self: flex-start;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 10px;
+}
+h2{
+    color: rgba(0, 0, 0, 1);
+    font-size: 85%;
+}
+.titulovocal{
+    background-color: rgba(37, 162, 213, 0.4);
+    width: 30%;
+    display: flex;
+    align-self: flex-start;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 10px;
+}
