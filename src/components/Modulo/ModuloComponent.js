@@ -100,7 +100,7 @@ const ModuloComponent = () => {
                                     <input
                                         class="form-control"
                                         type="text"
-                                        value="Vocales debiles o cerradas( I, U)"
+                                        value="Decenas"
                                         aria-label="Disabled input example"
                                         disabled readonly /><br />
                                 </a>
@@ -108,7 +108,7 @@ const ModuloComponent = () => {
                                     <input
                                         class="form-control"
                                         type="text"
-                                        value="Actividad 1 Vocales"
+                                        value="Actividad 1 "
                                         aria-label="Disabled input example"
                                         disabled readonly /><br />
                                 </a>
@@ -116,7 +116,7 @@ const ModuloComponent = () => {
                                 <input
                                     class="form-control"
                                     type="text"
-                                    placeholder="Actividad 2 Vocales"
+                                    placeholder="Actividad 2"
                                     aria-label="Disabled input example"
                                     disabled />
                                     </a>

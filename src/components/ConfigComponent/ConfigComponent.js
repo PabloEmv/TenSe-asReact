@@ -183,6 +183,8 @@ const ConfigComponent = ({ usuarioEditado, setUsuarioEditado, userEdit }) => {
                         </div>
                             <div style={{display:'flex', justifyContent:'center', width:'100%'}}>
                         <div style={{margin:"3%"}}>
+                            <a href="/dashboard">
+
                                 <button
                                     type="button"
                                     class="btn"
@@ -190,6 +192,7 @@ const ConfigComponent = ({ usuarioEditado, setUsuarioEditado, userEdit }) => {
                                     // onClick={() => userEdit(state)}
                                     >Cancelar
                                 </button>
+                            </a>
                                 </div>
                                 <div style={{margin:"3%"}}>    
                                 <button
