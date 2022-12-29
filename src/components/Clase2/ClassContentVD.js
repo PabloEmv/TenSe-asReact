@@ -1,6 +1,6 @@
 import BotonesComponent from "../Clase1.js/Botones";
 import ImagenCentralVDComponent from "./VocalesDebiles";
-import imgvocaldebil from "../../img/VocalesDebiles.png"
+import imgvocaldebil from "../../assets/img/img/VocalesDebiles.png"
 import React, { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 

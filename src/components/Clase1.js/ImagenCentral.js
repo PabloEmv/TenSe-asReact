@@ -1,5 +1,5 @@
 import React from "react";
-import "../../img/ImagenCentral.css";
+import "../../assets/img/img/ImagenCentral.css";
 
 const ImagenCentralComponent =({titulo,img}) =>{
     return(

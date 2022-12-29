@@ -1,6 +1,6 @@
 import BotonesComponent from "./Botones";
 import ImagenCentralComponent from "./ImagenCentral";
-import img from "../../img/Cuadro_completo.png"
+import img from "../../assets/img/img/Cuadro_completo.png"
 import React, { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 
