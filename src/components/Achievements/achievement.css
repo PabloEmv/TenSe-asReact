@@ -30,10 +30,22 @@
     background-color: rgb(255,215,0, 0.8);
 }
 
+.cardAchi:hover {
+    transition: 0.2s;
+    transform: scale(1.2);
+}
+
 .cup {
     display: flex;
   justify-content: center;
 }
 .opacidadTituloModulos {
     color: rgba(33, 35, 83, 0.8);
+}
+
+.blockedAchievement {
+    filter: brightness(60%);
+    background-image: url(../../assets/img/lock.svg);
+    background-repeat: no-repeat;
+    background-position: 95% 5px;
 }
