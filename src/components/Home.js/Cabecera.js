@@ -7,9 +7,7 @@ const CabeceraComponent = () => {
     return <header className="cabecera">
         <div className="logo">
             <a>
-
                 <img className="logopng" src={logo} alt="este es el logo"></img>
-                {/* <h4 className="logoLetra">TenSeñas</h4> */}
                 TenSeñas
             </a>
         </div>

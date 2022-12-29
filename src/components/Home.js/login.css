@@ -3,7 +3,6 @@
   display: flex;
   flex-wrap: nowrap;
   height: 290px;
-  width: responsive;
 }
 
 .login {
