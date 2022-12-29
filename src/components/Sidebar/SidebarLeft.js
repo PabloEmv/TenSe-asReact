@@ -21,7 +21,7 @@ const SidebarLeftComponent = () => {
               <i className="bx bx-folder nav_icon"></i>
               <span className="nav_name">Clases</span>
             </a>
-            <a href="/Achievements" className="nav_link">
+            <a href="/Achievements" className="nav_link achievement_nav">
               <i className="bx bx-ghost nav_icon"></i>
               <span className="nav_name">Logros</span>
             </a>
