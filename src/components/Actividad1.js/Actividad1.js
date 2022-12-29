@@ -1,10 +1,10 @@
 import React from "react";
-import LetraU from "../../img/u.png"
-import LetraA from "../../img/a.png"
-import LetraI from "../../img/i.png"
-import LetraO from "../../img/o.png"
-import Numero3 from "../../img/3.png"
-import Numero2 from "../../img/2.png"
+import LetraU from "../../assets/img/u.png"
+import LetraA from "../../assets/img/a.png"
+import LetraI from "../../assets/img/i.png"
+import LetraO from "../../assets/img/o.png"
+import Numero3 from "../../assets/img/3.png"
+import Numero2 from "../../assets/img/2.png"
 import "./card.css"
 import "./Actividad.css"
 
