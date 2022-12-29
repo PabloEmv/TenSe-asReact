@@ -3,6 +3,9 @@
       background-repeat: no-repeat;
       border-radius: 10px;
 }
+#carrusel{
+    margin-top: 5%;
+}
 .backgroundT{
     background-color:rgba(215, 240, 251, 1);
     width: 30%;
@@ -14,7 +17,7 @@
 }
 h2{
     color: rgba(0, 0, 0, 1);
-    font-size: 85%;
+    font-size: 100%;
 }
 .titulovocal{
     background-color: rgba(37, 162, 213, 0.4);
@@ -24,4 +27,13 @@ h2{
     justify-content: center;
     margin: 10px;
     border-radius: 10px;
+}
+.carousel-control-prev{
+    background-color: black;
+}
+.carousel-control-next{
+    background-color: black;
+}
+.carousel-indicators{
+    background-color: #25a5d5;
 }

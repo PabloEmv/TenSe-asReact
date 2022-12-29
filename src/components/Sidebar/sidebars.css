@@ -85,9 +85,14 @@ font-family: 'Quicksand', sans-serif;
 }
 /* quita la decoración de los enlaces */
 a {
-  text-decoration: none;
+  text-decoration:none;
 }
-
+.link{
+  color: black;
+}
+link:hover{
+  color: black;
+}
 /* ajustes de dimensiones y posición del logo y nombre */
 .nav_logo,
 .nav_link {

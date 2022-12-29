@@ -10,11 +10,32 @@
     background-color: #25a5d5;
     opacity: 75%;
 }
-.accordion-collapse{
+.accordion-collapse1{
     background-color: #25a5d5;
+    text-decoration: none;
+}
+.accordion-collapse{
+    background-color: #3BACB6;
 }
 
 #barra2{
     background-color: #3BACB6;
     opacity: 85%;
+}
+#barra3{
+    background-color: #3BACB6;
+    opacity: 85%;
+}
+.accordion-body2,.accordion-body3{ 
+    background-color: #3BACB6;
+    opacity: 75%;
+}
+.accordion-button{
+    text-decoration: none;
+}
+#color{
+    text-decoration: none;
+}
+.accordion-header{
+    text-decoration: none;
 }

@@ -23,7 +23,7 @@ const ModuloComponent = () => {
                         </h2>
                         <div
                             id="panelsStayOpen-collapseOne"
-                            class="accordion-collapse collapse show"
+                            class="accordion-collapse1 collapse show"
                             aria-labelledby="panelsStayOpen-headingOne">
                             <div class="accordion-body">
                                 <a href="./class" >
@@ -42,7 +42,7 @@ const ModuloComponent = () => {
                                         aria-label="Disabled input example"
                                         disabled readonly /><br />
                                 </a>
-                                <a href="./class" >
+                                <a href="./actividad1" >
                                     <input
                                         class="form-control"
                                         type="text"
@@ -87,7 +87,7 @@ const ModuloComponent = () => {
                             id="panelsStayOpen-collapseTwo"
                             class="accordion-collapse collapse show"
                             aria-labelledby="panelsStayOpen-headingOne">
-                            <div class="accordion-body">
+                            <div class="accordion-body2">
                                 <a href="./class" >
                                     <input
                                         class="form-control"
@@ -132,7 +132,7 @@ const ModuloComponent = () => {
                         <h2 class="accordion-header">
                             <button
                                 disabled 
-                                id="barra2"
+                                id="barra3"
                                 class="accordion-button" 
                                 type="button" 
                                 data-bs-toggle="collapse" 
@@ -149,7 +149,7 @@ const ModuloComponent = () => {
                             id="panelsStayOpen-collapseThree"
                             class="accordion-collapse collapse show"
                             aria-labelledby="panelsStayOpen-headingOne">
-                            <div class="accordion-body">
+                            <div class="accordion-body3">
                                 <a href="./class" >
                                     <input
                                         class="form-control"

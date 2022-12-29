@@ -28,7 +28,7 @@ const ClassContentVDComponent = () => {
               </a>
           </div>
           <div style={{ margin: "3%" }}>
-            <a href="/class2">
+            <a href="/actividad1">
               <button
                 type="button"
                 class="btn"

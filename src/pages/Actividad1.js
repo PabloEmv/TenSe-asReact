@@ -6,7 +6,6 @@ import {
   BtnSidebarRComponent,
   SidebarLeftComponent,
   SidebarRightComponent,
-  BotonesComponent,
   Actividad1Component,
 } from "../components";
 
@@ -65,7 +64,6 @@ const Actividad1Page = () => {
         <SidebarRightComponent />
         <SidebarLeftComponent />
         <Actividad1Component />
-        <BotonesComponent />
     </div>
   );
 };

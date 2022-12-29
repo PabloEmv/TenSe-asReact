@@ -7,7 +7,7 @@ import abcdario from "../../assets/img/abcdario.png";
 const DashboardContentComponent = () => {
   return (
     <div className="tablero container">
-      <a href="/modulo"> 
+      <a class="link" href="/modulo"> 
       <CardDashboardComponent imagen={vocales} alt={"vocales"} titulo={"Vocales"} nLecciones={"5"} duracion={"30 m"}/>
       </a> 
 
