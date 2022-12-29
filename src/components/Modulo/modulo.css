@@ -1,14 +1,9 @@
-.accordion-button{
-    background-color: #25a5d5;
-}
-.accordion{
-    background-color: #25a5d5;
+#todo{
+    margin-top: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 #barra{
-    background-color: #25a5d5;
-}
-
-#barra2{
     background-color: #25a5d5;
 }
 .accordion-body{ 
@@ -17,4 +12,9 @@
 }
 .accordion-collapse{
     background-color: #25a5d5;
+}
+
+#barra2{
+    background-color: #3BACB6;
+    opacity: 85%;
 }

@@ -14,7 +14,32 @@ const ClassContentVDComponent = () => {
     <div className="height-100">
       <div>
         <ImagenCentralVDComponent titulo= {"Vocales Debíles I, U"} imgvocaldebil = {imgvocaldebil}/>
-        <BotonesComponent handleOnClick={handleOnClick}/>
+        {/* <BotonesComponent handleOnClick={handleOnClick}/> */}
+        <div style={{ display: 'flex', justifyContent: 'space-between', width: '100%' }}>
+          <div style={{ margin: "3%" }}>
+            <a href="/class">
+            <button
+              type="button"
+              class="btn"
+              style={{ border: '2px solid', borderColor: '#25a5d5', backgroundColor: 'ffffff' }}
+              // onClick={() => userEdit(state)}
+              >Anterior
+            </button>
+              </a>
+          </div>
+          <div style={{ margin: "3%" }}>
+            <a href="/class2">
+              <button
+                type="button"
+                class="btn"
+                style={{ border: '2px solid', borderColor: '#25a5d5', backgroundColor: '#25a5d5' }}
+                                        /*                 onClick={() => userEdit(state)}
+                                        */              >
+                Siguiente
+              </button>
+            </a>
+          </div>
+        </div>
         </div>
     </div> 
   );

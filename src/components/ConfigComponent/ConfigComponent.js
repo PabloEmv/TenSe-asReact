@@ -56,13 +56,12 @@ const ConfigComponent = ({ usuarioEditado, setUsuarioEditado, userEdit }) => {
     return (
         <div className="fondo">
             <div class="card" className="config" style={{ border: '2px solid', borderColor: '#25a5d5', borderRadius: '1%' }}>
-                <div className="a ">
-                    <h4 style={{ marginLeft: '2%' }}>Foto de perfil</h4>
-                    <div class="container"
+                <div id="marco" style={{ marginLeft: '4%'}}>
+                    <h4 >Foto de perfil</h4>
+                    <div class="container" 
                         style={{
                             display: 'flex',
                             alignItems: 'start',
-                            marginLeft: '2%'
                         }}>
                         <img
                             src={avatar}

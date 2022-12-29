@@ -92,7 +92,7 @@ const InicioSesion = () => {
                 fullWidth
                 variant="contained"
                 sx={{ mt: 3, mb: 2 }}
-                href="/modulo"
+                href="/dashboard"
               >
                 Ingresar
               </Button>

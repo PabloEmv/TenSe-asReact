@@ -16,9 +16,9 @@ const CabeceraComponent = () => {
 
         <nav className="lista">
             <a href="" className="nav">Inicio</a>
-            <a href="" className="nav">Sobre nosotros</a>
+            <a href="#sobreNosotros" className="nav">Sobre nosotros</a>
             <a href="" className="nav">Conctacto</a>
-            <a href=""><button class="btn btn-light buttoninicio" type="submit">Iniciar Sesión</button></a>
+            <a href="/iniciarSesion"><button class="btn btn-light buttoninicio" type="submit">Iniciar Sesión</button></a>
         </nav>
     </header>
 }
