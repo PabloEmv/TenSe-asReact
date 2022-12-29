@@ -15,7 +15,7 @@ function CuerpoComponent() {
             </div>
             <div className="sobreNosotros">
                 <h4>Sobre Nosotros</h4>
-                <p>Some of the features and advantages that we provide for those of you who store data in this Data Warehouse.</p>
+                <p>Queremos contribuir a la inclusión del lenguaje de señas mediante la enseñanza de esta lengua de manera didactica y sencilla.</p>
             </div>
             
         </div>
