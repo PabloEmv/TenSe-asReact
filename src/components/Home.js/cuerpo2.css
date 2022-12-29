@@ -1,4 +1,3 @@
-
 .beneficios img {
     position: relative;
     top: 35%;
@@ -8,33 +7,29 @@
 }
 
 .beneficios {
-    width: 95%;
-    position: relative;
-    top: 300px;
+    background-image: url(/src/assets/img/senas.png);
+    background-size: 16%;
+
+
 }
 
-.primer{
+.primer,
+.segundo {
+    position: relative;
+    left: -4%;
     display: flex;
-    width: auto;
-    margin-left:8%;
+    margin: 5%;
+    margin-top: 0%;
 }
-.segundo{
-    display: flex;
-    width: auto;
-    margin-left:8%;
-    margin-top: 2%;
-}
-.a{
-    display: flex;
-    width: 45%;
-    margin: 2%;
-}
-.aa{
-    contain: content;
+
+
+.a,
+.aa {
     display: flex;
     width: 45%;
-    margin: 2%;
+    margin: 4%;
 }
+
 .equipo,
 .problematica {
     width: 90%;
@@ -42,7 +37,8 @@
     border-radius: 30px;
 }
 
-.aprende, .acceso {
+.aprende,
+.acceso {
     width: 100%;
     padding: 30px;
     border-radius: 30px;
@@ -68,4 +64,14 @@
 .aprende {
     background-color: #dfd8e676;
     color: rgb(33, 34, 56);
+}
+
+.beneficios h5 {
+    font-family: 'Cuprum', sans-serif;
+}
+
+.beneficios p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: small;
+
 }

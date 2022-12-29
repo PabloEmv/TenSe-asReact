@@ -27,21 +27,21 @@
   line-height: 29px;
   text-align: center;
   padding: 2px;
-  color:rgb(52, 100, 139);
+  color: rgb(52, 100, 139);
 }
 
-.contenedorImg{
-  display:flex;
+.contenedorImg {
+  display: flex;
   flex-wrap: nowrap;
   border-radius: 10%;
   border: 1px solid #60c3eb;
   margin: 30px;
   width: 70%;
   height: 29%;
-  background-color: rgba(211,236,247,255);
+  background-color: rgba(211, 236, 247, 255);
 }
 
-.imgMapache{
+.imgMapache {
   position: relative;
   top: 20%;
   left: 15%;
@@ -49,6 +49,12 @@
   height: 180%;
 }
 
-.buttonRegistro{
+.buttonRegistro {
   margin-bottom: 15px;
 }
+
+.login a {
+  font-family: 'Inter', sans-serif;
+  font-weight: normal;
+}
+

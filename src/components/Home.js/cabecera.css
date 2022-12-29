@@ -1,5 +1,4 @@
 
-
 .cabecera {
     display: flex;
     background: rgba(37,162,213,255);
@@ -16,13 +15,11 @@
 
 .logopng{
     margin: 0;
-    width: 50px;
-    height: 30px;
     
 }
 
 .logo {
-    margin: 3px;
+    margin: 4px;
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -46,7 +43,8 @@
 
 
 .nav{
-    margin-right: 10px;
+    margin: 1px;
+    margin-right: 18px;
     padding: 6px;
     text-decoration: none;
     color: white;
@@ -61,4 +59,12 @@
     color: rgba(37,162,213,255);
 }
 
+.lista a{
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+}
+.logo a{
+    font-family: 'Inter', sans-serif;
+    font-weight:bolder;
+}
 

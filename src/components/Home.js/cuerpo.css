@@ -1,4 +1,7 @@
-
+.bloqueGeneral {
+  background-image: url(/src/assets/img/senas.png);
+  background-size: 16%;
+}
 
 .planAprendizaje {
   background: #08A1DF;
@@ -6,11 +9,10 @@
   display: flex;
   align-items: center;
   flex-wrap: nowrap;
-  margin-top: 75px;
-  margin-bottom: 50px;
+  margin-bottom: 410px;
   overflow: auto;
   box-sizing: border-box;
-  
+  text-align: start;
   width: 60%;
   height: 260px;
   border-radius: 20px;
@@ -18,10 +20,10 @@
   padding: 10px;
   position: relative;
   left: 21%;
-  top: 300px;
+  top: 330px;
 }
 
-.imgPlan{
+.imgPlan {
   width: 30%;
   height: 80%;
   margin: 3px;
@@ -29,13 +31,30 @@
 }
 
 .sobreNosotros {
+  font-family: Arial, Helvetica, sans-serif;
   position: relative;
   justify-content: center;
   width: 36%;
   height: 160px;
-  top: 350px;
+  top: 5px;
   left: 35%;
   text-align: center;
   align-items: center;
 }
 
+.sobreNosotros h4 {
+  font-family: 'Cuprum', sans-serif;
+}
+
+.sobreNosotros p {
+  font-family: 'Josefin Slab', serif;
+}
+
+.planAprendizaje h3{
+  font-family: 'Cuprum', sans-serif;
+}
+
+.planAprendizaje p{
+  font-family: 'Josefin Slab', serif;
+  font-size:90%;
+}
