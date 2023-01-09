@@ -65,7 +65,6 @@ const Actividad1APage = () => {
         <SidebarRightComponent />
         <SidebarLeftComponent />
         <SeleccionaAComponent />
-        <BotonesComponent />
     </div>
   );
 };
