@@ -1,0 +1,17 @@
+#InicioSesion{
+    display: flex;
+    justify-items: center;
+    margin-left: 35%;
+    margin-top: 40px;
+}
+
+.RoccoIzqrd{
+    margin-left: -180px;
+}
+
+#FormInicio{
+    max-height: 600px;
+    min-height: 580px;
+    min-width:  423px;
+}
+

@@ -9,6 +9,7 @@ import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import RacoonD from "../../assets/img/Roccoder.png"
+import './register.css'
 
 
 
@@ -39,7 +40,8 @@ const Register = () => {
   }; 
   return (
     <div className="Register">
-      <div class="card" style={{ border: '1px solid #25a2d5', borderRadius: '3%', position: 'absolute', top: "25%", left: "51%", backgroundColor: "white" , zIndex: 1}} >
+      <img className="MaRoD" src={RacoonD} alt="Mapache Rocco" maxWidth="xs" style={{zIndex: 0}}></img>
+      <div  id="FormRegistro" class="card" style={{ border: '1px solid #25a2d5', borderRadius: '3%', backgroundColor: "white" , zIndex: 1}} >
         <ThemeProvider theme={theme}>
           <Container component="main" maxWidth="xs">
             <CssBaseline />
@@ -128,7 +130,6 @@ const Register = () => {
           </Container>
         </ThemeProvider>
       </div>
-      <img src={RacoonD} alt="Mapache Rocco" maxWidth="xs" style={{ position: 'absolute', top: "15%", left: "17%", zIndex: 0 }}></img>
     </div>
   );
 }

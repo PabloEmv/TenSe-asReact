@@ -12,6 +12,7 @@ import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import Racoon from "../../assets/img/Roccoizq.png"
+import "./inicioSesion.css"
 
 
 function Copyright(props) {
@@ -31,8 +32,8 @@ function Copyright(props) {
 const InicioSesion = () => {
 
   return (
-    <div className="Registro">
-      <div class="card" style={{ border: '1px solid black', borderRadius: '3%', position: 'fixed', top: "21%", left: "33%", backgroundColor: "white" }} >
+    <div id="InicioSesion">
+      <div id="FormInicio" class="card" style={{ border: '1px solid #25a2d5', borderRadius: '3%', backgroundColor: "white"}} >
         <Container component="main" maxWidth="xs">
           <CssBaseline />
           <Box
@@ -108,7 +109,7 @@ const InicioSesion = () => {
           <Copyright sx={{ mt: 5 }} />
         </Container>
       </div>
-      <img src={Racoon} alt="Mapache Rocco" style={{ position: 'fixed', top: "20%", left: "50%", zIndex: -1 }}></img>
+      <img className="RoccoIzqrd" src={Racoon} alt="Mapache Rocco" style={{zIndex: -1 }}></img>
     </div>
   )
 

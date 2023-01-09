@@ -12,12 +12,12 @@ import fondo from "../assets/img/fondoTNS.jpg";
 const Registro = () =>{
 
     return(
-        <div>
+        <div style={{}}>
         <div>
             <BarraNavegacion/>
         </div>
           <img src={fondo} alt="Fondo" draggable="false" style={{ zIndex:-1 , position:"fixed",height:"100%", width:"100%", top:"60px"}} />
-        <div className="infoRegistro" style={{ position: 'fixed', top: "60px", left: "2%", textAlign: 'center',color:"white" }}>
+        <div className="infoRegistro" style={{ position: 'fixed', top: "100px", left: "80px", textAlign: 'center',color:"white"}}>
           <img src={logoTS} alt="logoTS" style={{width:"75px"}}/>
           <h1 style={{textAlign: 'center'}}>TenSeñas</h1>
           <h2 style={{color:"white"}}>¡Gracias por animarte!</h2>
