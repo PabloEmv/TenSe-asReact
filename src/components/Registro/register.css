@@ -1,0 +1,19 @@
+.Register{
+    margin-top: 156px;
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.MaRoD{
+    margin: -100px;
+}
+
+#FormRegistro{
+    margin:  -50px;
+    min-width: 450px;
+    max-width: 450px;
+    max-height: 600px;
+    min-height: 450px;
+}

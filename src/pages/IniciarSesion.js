@@ -15,7 +15,7 @@ const IniciarSesion = () =>{
         <div className="infoRegistro" style={{ position: 'fixed', top: "60px", left: "2%", textAlign: 'center',color:"white" }}>
           <img src={logoTS} alt="logoTS" style={{width:"75px"}}/>
           <h1 style={{textAlign: 'center'}}>TenSeñas</h1>
-          <h2>¡Nos alegra volver a verte!</h2>
+          <h2 style={{color:"white"}}>¡Nos alegra volver a verte!</h2>
           <p>
           Preparado para realizar los siguientes modulos<br/> y desafios de TenSeñas mucho exito en el<br/> camino del aprendizaje y la inclusion
           </p>
