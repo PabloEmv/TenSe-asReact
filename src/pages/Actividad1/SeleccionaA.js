@@ -1,13 +1,14 @@
 import React, { useEffect } from "react";
-import '../components/Sidebar/sidebars.css'
+import '../../components/Sidebar/sidebars.css'
 //import { useNavigate } from "react-router-dom"
 import {
   BtnSidebarLComponent,
   BtnSidebarRComponent,
   SidebarLeftComponent,
   SidebarRightComponent,
-  Actividad1Component,
-} from "../components";
+  BotonesComponent,
+  SeleccionaAComponent,
+} from "../../components";
 
 const showNavbar = (toggleId, navId, bodyId, headerId) => {
   const toggle = document.getElementById(toggleId);
@@ -46,7 +47,7 @@ const showNavbar2 = (toggleId, navId, bodyId, headerId, textSBR) => {
 };
 
 
-const Actividad1Page = () => {
+const Actividad1APage = () => {
 
   useEffect(() => {
     showNavbar("header-toggle", "nav-bar", "body-pd", "header");
@@ -63,8 +64,8 @@ const Actividad1Page = () => {
       </div>
         <SidebarRightComponent />
         <SidebarLeftComponent />
-        <Actividad1Component />
+        <SeleccionaAComponent />
     </div>
   );
 };
-export default Actividad1Page;
+export default Actividad1APage;

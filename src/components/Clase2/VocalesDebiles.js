@@ -1,6 +1,6 @@
 import React from "react";
-import "../../img/ImagenCentral.css"
-import imgvocaldebil from"../../img/VocalesDebiles.png"
+import "../../assets/img/img/ImagenCentral.css"
+
 
 const ImagenCentralVDComponent =({titulo,imgvocaldebil}) =>{
     return(
