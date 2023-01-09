@@ -28,40 +28,7 @@ function Copyright(props) {
 
 const theme = createTheme();
 
-/* const initialUsuario = {
-  nombre: "",
-  contrasena: "",
-  correo: "",
-  fechaNac: "",
-} */
-
-const Register = ({ /* userAdd, usuarioEditado */ }) => {
-  /*  const [usuario, setUsuario] = useState(initialUsuario);
-  const { nombre, contrasena, correo, fechaNaciomiento } = usuario; */
-
-  /* useEffect(() => {      //funcion de edicion de usuarios
-    if (usuarioEditado !== null) {
-        setUsuario(usuarioEditado)
-    } else {
-        setUsuario(
-            {
-                nombre: "",
-                contrasena: "",
-                correo: "",
-                fechaNaciomiento: "",
-            }
-        )
-    }
-}, [usuarioEditado]);
-  
-  const handleInputChange = (e) => {
-    const changedFormValue = {
-      ...usuario,
-      [e.target.name]: e.target.value
-    }
-    setUsuario(changedFormValue);
-  } */
-  
+const Register = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     const data = new FormData(event.currentTarget);
@@ -100,8 +67,7 @@ const Register = ({ /* userAdd, usuarioEditado */ }) => {
                       label="Direccion de correo"
                       autoComplete="email"
                       name="correo"
-                    /*   value={correo} 
-                      onChange={handleInputChange}  */
+                    
                     />
                   </Grid>
                   <Grid item xs={12} sm={6}>
@@ -113,8 +79,7 @@ const Register = ({ /* userAdd, usuarioEditado */ }) => {
                       label="Nombre"
                       autoFocus
                       name="nombre"
-                    /*   value={nombre} 
-                      onChange={handleInputChange} */
+                    
                     />
                   </Grid>
                   <Grid item xs={12} sm={6}>
@@ -125,8 +90,7 @@ const Register = ({ /* userAdd, usuarioEditado */ }) => {
                       label="Fecha Nacimiento(dd/MM/yyyy)"
                       autoComplete="date"
                       name="fechaNaciomiento"
-                   /*   value={fechaNaciomiento} 
-                      onChange={handleInputChange} */
+                   
                     />
                   </Grid>
                   <Grid item xs={12}>
@@ -138,23 +102,19 @@ const Register = ({ /* userAdd, usuarioEditado */ }) => {
                       id="Contraseña"
                       autoComplete="new-contraseña"
                       name="contrasena"
-                      /* value={contrasena} 
-                      onChange={handleInputChange} */
+                      
                     />
                   </Grid>
                 </Grid>
-                {/* {usuarioEditado !== null ? ( */}
+                
                 <Button
                   type="submit"
                   fullWidth
-                  variant="contained"
-                 /*  onClick={() => userAdd(usuario)} */
+                  variant="contained"                
                   sx={{ mt: 3, mb: 2 }}
                 >
                   Registrarse
-                </Button>{/* ):(
-                  <></>
-                )} */}
+                </Button>
                 <Grid container justifyContent="flex-end">
                   <Grid item>
                     <Link href="/iniciarSesion" variant="body2">
