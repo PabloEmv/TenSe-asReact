@@ -8,18 +8,21 @@
 
 .beneficios {
     background-image: url(/src/assets/img/senas.png);
-    background-size: 16%;
+}
 
-
+.beneficios2 {
+    width: 80vw;
+    border-radius: 30px;
 }
 
 .primer,
 .segundo {
     position: relative;
-    left: -4%;
+    left: -2%;
     display: flex;
-    margin: 5%;
+    margin: 2%;
     margin-top: 0%;
+    margin-bottom: 0px;
 }
 
 
@@ -27,7 +30,7 @@
 .aa {
     display: flex;
     width: 45%;
-    margin: 4%;
+    margin: 1%;
 }
 
 .equipo,
@@ -74,4 +77,31 @@
     font-family: 'Montserrat', sans-serif;
     font-size: small;
 
+}
+
+@media screen and (min-width: 1441px) {
+    .primer,
+.segundo {
+    left: -2%;
+}
+
+.beneficios {
+    padding-top: 350px;
+}
+
+.beneficios img {
+    position: relative;
+    top: 35%;
+    width: 40%;
+    height: 65%;
+    left: 5%;
+}
+
+.beneficios2 h5 {
+    font-size: 1.5rem;
+}
+.beneficios2 p {
+    font-size: 1.2rem;
+
+}
 }

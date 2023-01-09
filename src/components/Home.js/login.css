@@ -12,7 +12,7 @@
   position: relative;
   margin-block: 40px;
   margin-bottom: 350px;
-  left: 7%;
+  left: -2%;
   box-sizing: border-box;
   width: 32%;
   height: 165%;
@@ -44,7 +44,7 @@
 .imgMapache {
   position: relative;
   top: 20%;
-  left: 15%;
+  left: 8%;
   width: 40%;
   height: 180%;
 }
@@ -56,5 +56,37 @@
 .login a {
   font-family: 'Inter', sans-serif;
   font-weight: normal;
+}
+
+@media screen and (min-width: 1441px) {
+  .imgMapache {
+    top: 30%;
+    left: 8%;
+    width: 40%;
+    height: 190%;
+  }
+  .login {
+    width: 35%;
+    height: 70vh;
+    left: -2%;
+    top: 15%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .cuerpologin {
+    height: 40vh;
+  }
+
+  .contenedorImg {
+    margin-bottom: 65px;
+  }
+
+  .login p {
+    font-size: 1.8rem;
+  }
+  .botonesLoginHome {
+    margin-top: 90px;
+  }
 }
 

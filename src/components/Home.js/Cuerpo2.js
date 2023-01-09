@@ -8,6 +8,7 @@ import aprende from '../../assets/img/aprendeJugando.png';
 function CuerpoComponent2() {
     return (
         <div className="beneficios">
+            <div className="beneficios2 mx-auto bg-light bg-opacity-25">
         <div className="primer">
             <div className="a">
                 <img className="imgEquipo" src={equipo}></img>
@@ -43,6 +44,8 @@ function CuerpoComponent2() {
             </div>
         </div>
     </div>
+        </div>
+        
 )
 }
 

@@ -9,7 +9,7 @@
   display: flex;
   align-items: center;
   flex-wrap: nowrap;
-  margin-bottom: 410px;
+  margin-bottom: 510px;
   overflow: auto;
   box-sizing: border-box;
   text-align: start;
@@ -35,26 +35,38 @@
   position: relative;
   justify-content: center;
   width: 36%;
-  height: 160px;
-  top: 5px;
+  height: 110px;
+  bottom: 20px;
   left: 35%;
   text-align: center;
   align-items: center;
+  border-radius: 10px;
 }
 
-.sobreNosotros h4 {
-  font-family: 'Cuprum', sans-serif;
-}
+@media screen and (min-width: 1441px) {
+  .planAprendizaje {
+    margin-bottom: 510px;
+    height: 400px;
+    left: 21%;
+    top: 615px;
+  }
 
-.sobreNosotros p {
-  font-family: 'Josefin Slab', serif;
-}
+  .sobreNosotros {
+    color: #212353;
+    top: 300px;
+  }
 
-.planAprendizaje h3{
-  font-family: 'Cuprum', sans-serif;
-}
+  .planAprendizaje h3 {
+    font-size: 3rem;
+  }
+  .planAprendizaje p {
+    font-size: 1.5rem;
+  }
+  .sobreNosotros h4 {
+    font-size: 2rem;
+  }
+  .sobreNosotros p {
+    font-size: 1.5rem;
 
-.planAprendizaje p{
-  font-family: 'Josefin Slab', serif;
-  font-size:90%;
+  }
 }

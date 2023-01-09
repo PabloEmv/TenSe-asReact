@@ -12,7 +12,7 @@ function LoginComponent() {
                     <img classname="pict" src={imglogin}></img>
             </div>
             <p>Educación e integracion del LSCH de una forma entretenida, rompiendo brechas en la comunicación</p>
-            <div class="d-grid gap-2 col-9 mx-auto">
+            <div class="d-grid gap-2 col-9 mx-auto botonesLoginHome">
                 <a href="/iniciarSesion"><button type="button" class="btn btn-outline-primary col-10">Iniciar Sesión</button></a>
                 <a href="/registro"><button class="btn btn-primary buttonRegistro col-10" type="button">Registrarse</button></a>
             </div>
