@@ -4,7 +4,7 @@ const SidebarLeftComponent = () => {
   
   return (
     <div className="l-navbar" id="nav-bar">
-      <nav className="nav navSB">
+      <nav className="navSB">
         <div>
           {/* logo + nombre */}
           <a href="./Dashboard" className="nav_logo">
