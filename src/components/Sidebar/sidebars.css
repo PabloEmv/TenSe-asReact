@@ -502,3 +502,15 @@ link:hover{
 .nameUserSBR {
   bottom: 30px;
 }
+
+@media screen and (max-width: 1366px) {
+  .bodyp {
+    padding-left: 190px;
+    padding-right: 190px;
+  }
+
+  .tablero {
+    padding-left: 46px;
+    padding-right: 46px;
+  }
+}

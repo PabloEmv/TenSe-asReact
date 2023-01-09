@@ -30,4 +30,4 @@ import UserComponent from "./Perfil/User";
 export { SidebarLeftComponent, SidebarRightComponent, BtnSidebarLComponent, BtnSidebarRComponent,
      DashboardContentComponent, ConfigComponent, showNavbar, showNavbar2, AchievementsContentComponent,
       ClassContentComponent, Register, BarraNavegacion, ModuloComponent, CabeceraComponent, CuerpoComponent, 
-      LoginComponent, PieComponent, InicioSesion,BotonesComponent,SeleccionaAComponent, SeleccionaIComponent,SeleccionaOComponent,Class2ContentComponent}
+      LoginComponent, PieComponent, InicioSesion,BotonesComponent,SeleccionaAComponent, SeleccionaIComponent,SeleccionaOComponent,Class2ContentComponent, CuerpoComponent2}
