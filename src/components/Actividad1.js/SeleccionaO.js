@@ -18,7 +18,7 @@ const SeleccionaOComponent = () => {
          const botonSiguienteAct = document.querySelector('#botonSiguienteAct')
          swal("Correcto", "Dale Ok", "success");
          botonSiguienteAct.classList.remove("visually-hidden");
-      } else {
+      } else if (selected != 'LetraO' && selected != '') {
          swal ( "Oops", "Incorrecto, ¡Sigue intentando!", "error")
       }
     return (

@@ -20,9 +20,11 @@ const SeleccionaAComponent = () => {
          const botonSiguienteAct = document.querySelector('#botonSiguienteAct')
          swal("Correcto", "Dale Ok", "success");
          botonSiguienteAct.classList.remove("visually-hidden");
-      } else {
+      } else if (selected != 'LetraA' && selected != '') {
          swal ( "Oops", "Incorrecto, ¡Sigue intentando!", "error")
-      }
+      } 
+         
+      
 
    return (
       <div>
