@@ -49,3 +49,10 @@
     background-repeat: no-repeat;
     background-position: 95% 5px;
 }
+
+@media screen and (max-width: 1366px) {
+    .logrosFondo {
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+}

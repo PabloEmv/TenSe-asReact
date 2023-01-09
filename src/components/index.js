@@ -18,7 +18,9 @@ import {showNavbar} from "./Sidebar/SbScript";
 import {showNavbar2} from "./Sidebar/SbScript";
 import AchievementsContentComponent from "./Achievements/Achievements";
 import Class2ContentComponent from "./Clase2/ClassContentVD";
-import Actividad1Component from "./Actividad1.js/Actividad1";
+import SeleccionaAComponent from "./Actividad1.js/SeleccionaA";
+import SeleccionaIComponent from "./Actividad1.js/SeleccionaI";
+import SeleccionaOComponent from "./Actividad1.js/SeleccionaO";
 import BotonesComponent from "./Clase1.js/Botones";
 import UserComponent from "./Perfil/User";
 
@@ -28,5 +30,4 @@ import UserComponent from "./Perfil/User";
 export { SidebarLeftComponent, SidebarRightComponent, BtnSidebarLComponent, BtnSidebarRComponent,
      DashboardContentComponent, ConfigComponent, showNavbar, showNavbar2, AchievementsContentComponent,
       ClassContentComponent, Register, BarraNavegacion, ModuloComponent, CabeceraComponent, CuerpoComponent, 
-      LoginComponent, PieComponent, InicioSesion,BotonesComponent,Actividad1Component,Class2ContentComponent,
-       CuerpoComponent2,UserComponent}
+      LoginComponent, PieComponent, InicioSesion,BotonesComponent,SeleccionaAComponent, SeleccionaIComponent,SeleccionaOComponent,Class2ContentComponent, CuerpoComponent2}
