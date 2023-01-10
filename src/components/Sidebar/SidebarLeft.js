@@ -17,7 +17,7 @@ const SidebarLeftComponent = () => {
               <i className="bx bx-grid-alt nav_icon"></i>
               <span className="nav_name">Tablero</span>
             </a>
-            <a href="./modulo" className="nav_link">
+            <a href="./modulo" className="nav_link modulo_nav">
               <i className="bx bx-folder nav_icon"></i>
               <span className="nav_name">Clases</span>
             </a>

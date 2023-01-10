@@ -1,6 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./modulo.css";
 const ModuloComponent = () => {
+    function removeActiveClass() {
+        const modulo = document.querySelector('.nav_link');
+        modulo.className = modulo.className.replace('active', '');
+      }
+    
+      function addActiveClass() {
+        const config = document.querySelector('.modulo_nav');
+        config.classList.add('active');
+      }
+      useEffect(removeActiveClass, []);
+      useEffect(addActiveClass, []);
     return (
         <div id="todo">
             <div classname="modulo1">
@@ -42,7 +53,7 @@ const ModuloComponent = () => {
                                         aria-label="Disabled input example"
                                         disabled readonly /><br />
                                 </a>
-                                <a href="./actividad1" >
+                                <a href="./actividad1a" >
                                     <input
                                         class="form-control"
                                         type="text"

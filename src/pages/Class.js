@@ -6,7 +6,6 @@ import {
   BtnSidebarRComponent,
   SidebarLeftComponent,
   SidebarRightComponent,
-  DashboardContentComponent,
   ClassContentComponent
 } from "../components";
 

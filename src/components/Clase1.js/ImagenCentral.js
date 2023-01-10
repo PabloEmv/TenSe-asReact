@@ -1,17 +1,17 @@
 import React from "react";
-import "../../assets/img/img/ImagenCentral.css";
+
 
 const ImagenCentralComponent =({titulo,img}) =>{
     return(
         <div>
             <center>
-            <div className="titulovocal">
+            <div className="titulovocals">
                 <h3>{titulo}</h3>
             </div>
             </center>
             <center>
             <div className="imagenvocal">
-                <img alt= "imagen" src = {img}/>
+                <img alt= "imagen" src ={img} className="imagenLetras"/>
             </div>
             </center>
             

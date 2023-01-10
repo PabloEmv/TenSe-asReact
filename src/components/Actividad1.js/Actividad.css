@@ -24,7 +24,7 @@ h2{
     display: flex;
     align-self: flex-start;
     justify-content: center;
-    margin: 10px;
+    margin-bottom: 100px;
     border-radius: 10px;
 }
 .carousel-control-prev{
@@ -35,4 +35,12 @@ h2{
 }
 .carousel-indicators{
     background-color: #25a5d5;
+}
+
+@media screen and (max-width: 1366px) {
+    .backgroundImgCarrusel{
+        margin-left: auto;
+        margin-right: auto;
+          width: 60vw;
+    }
 }

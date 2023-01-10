@@ -1,0 +1,26 @@
+body{
+    background-color:rgba(215, 240, 251, 1);
+}
+
+.titulovocals {
+    background-color: rgba(37, 162, 213, 0.4);
+    justify-content: center;
+    border-radius: 10px;
+    width: 300px;
+    margin-bottom: 100px;
+}
+
+.botonesLetras {
+    width: 60vw;
+}
+.imagenLetras {
+    width: 62vw;
+}
+
+@media screen and (max-width: 1366px) {
+    .titulovocals {
+        margin-bottom: 50px;
+    }
+}
+
+

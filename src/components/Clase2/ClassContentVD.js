@@ -1,12 +1,27 @@
 import BotonesComponent from "../Clase1.js/Botones";
 import ImagenCentralVDComponent from "./VocalesDebiles";
 import imgvocaldebil from "../../assets/img/img/VocalesDebiles.png"
-import React, { useCallback } from "react";
+import React, { useCallback, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
 
 
+
 const ClassContentVDComponent = () => {
+
+  function removeActiveClass() {
+    const modulo = document.querySelector('.nav_link');
+    modulo.className = modulo.className.replace('active', '');
+  }
+
+  function addActiveClass() {
+    const config = document.querySelector('.modulo_nav');
+    config.classList.add('active');
+  }
+  useEffect(removeActiveClass, []);
+  useEffect(addActiveClass, []);
+
+
   const navigate = useNavigate();
   const handleOnClick = useCallback(() => navigate("/dashboard", {}, [navigate]));
 
@@ -15,7 +30,7 @@ const ClassContentVDComponent = () => {
       <div>
         <ImagenCentralVDComponent titulo= {"Vocales Debíles I, U"} imgvocaldebil = {imgvocaldebil}/>
         {/* <BotonesComponent handleOnClick={handleOnClick}/> */}
-        <div style={{ display: 'flex', justifyContent: 'space-between', width: '100%' }}>
+        <div className="botonesLetras mx-auto" style={{ display: 'flex', justifyContent: 'space-between'}}>
           <div style={{ margin: "3%" }}>
             <a href="/class">
             <button
@@ -28,13 +43,11 @@ const ClassContentVDComponent = () => {
               </a>
           </div>
           <div style={{ margin: "3%" }}>
-            <a href="/actividad1">
+            <a href="/actividad1a">
               <button
                 type="button"
                 class="btn"
-                style={{ border: '2px solid', borderColor: '#25a5d5', backgroundColor: '#25a5d5' }}
-                                        /*                 onClick={() => userEdit(state)}
-                                        */              >
+                style={{ border: '2px solid', borderColor: '#25a5d5', backgroundColor: '#25a5d5' }}           >
                 Siguiente
               </button>
             </a>

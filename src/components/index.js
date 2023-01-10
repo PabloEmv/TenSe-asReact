@@ -23,6 +23,7 @@ import SeleccionaIComponent from "./Actividad1.js/SeleccionaI";
 import SeleccionaOComponent from "./Actividad1.js/SeleccionaO";
 import BotonesComponent from "./Clase1.js/Botones";
 import UserComponent from "./Perfil/User";
+import TeamComponent from "./Home.js/Team";
 
 
 
@@ -30,4 +31,4 @@ import UserComponent from "./Perfil/User";
 export { SidebarLeftComponent, SidebarRightComponent, BtnSidebarLComponent, BtnSidebarRComponent,
      DashboardContentComponent, ConfigComponent, showNavbar, showNavbar2, AchievementsContentComponent,
       ClassContentComponent, Register, BarraNavegacion, ModuloComponent, CabeceraComponent, CuerpoComponent, 
-      LoginComponent, PieComponent, InicioSesion,BotonesComponent,SeleccionaAComponent, SeleccionaIComponent,SeleccionaOComponent,Class2ContentComponent, CuerpoComponent2}
+      LoginComponent, PieComponent, InicioSesion,BotonesComponent,SeleccionaAComponent, SeleccionaIComponent,SeleccionaOComponent,Class2ContentComponent, CuerpoComponent2, TeamComponent}

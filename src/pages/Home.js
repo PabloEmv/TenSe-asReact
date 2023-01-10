@@ -1,5 +1,5 @@
 import React from "react";
-import {CabeceraComponent, CuerpoComponent, CuerpoComponent2, LoginComponent, PieComponent } from "../components";
+import {CabeceraComponent, CuerpoComponent, CuerpoComponent2, LoginComponent, PieComponent, TeamComponent } from "../components";
 
 const HomePage = () => {
     return (
@@ -8,6 +8,7 @@ const HomePage = () => {
                 <LoginComponent />
                 <CuerpoComponent/>
                 <CuerpoComponent2/>
+                <TeamComponent />
                 <PieComponent />
             </div>
     )

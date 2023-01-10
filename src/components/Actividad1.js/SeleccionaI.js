@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 import swal from 'sweetalert';
 import LetraU from "../../assets/img/img/u.png"
 import LetraA from "../../assets/img/img/a.png"
@@ -8,6 +8,20 @@ import "./card.css"
 import "./Actividad.css"
 
 const SeleccionaIComponent = () => {
+   function removeActiveClass() {
+
+      const modulo = document.querySelector('.nav_link');
+      modulo.className = modulo.className.replace('active', '');
+    }
+  
+    function addActiveClass() {
+      const config = document.querySelector('.modulo_nav');
+      config.classList.add('active');
+    }
+    useEffect(removeActiveClass, []);
+    useEffect(addActiveClass, []);
+
+    ////////////////////////////////////////////////
    const [selected, setSelected] = useState('')
     
       const handleChange = (event) => {
@@ -55,7 +69,7 @@ const SeleccionaIComponent = () => {
                </div>
             </div>
          </div>
-         <div class="d-flex justify-content-between" style={{ margin: "3%" }}>
+         <div class="d-flex justify-content-between" style={{ margin: "6%" }}>
                <a href="/class2"><button type="button" class="btn" style={{ border: '2px solid', borderColor: '#25a5d5', backgroundColor: 'ffffff' }} >Anterior </button></a>
                   <a href="/Actividad1O" className="visually-hidden" id="botonSiguienteAct"><button type="button" class="btn" style={{ border: '2px solid', borderColor: '#25a5d5', backgroundColor: '#25a5d5' }} >Siguiente </button></a>
                </div>
